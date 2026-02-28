@@ -57,16 +57,3 @@ We propose an extensive taxonomy of learning strategies designed to mitigate fun
 | **Modality Adaption** | [cite_start]CMT-CNN [51], UMAD [52], TC-Det [53], VPD [54], DCRL-PDN [55], TIRDet [56], D3T [57], ModTr [58], M²D-LIF [5], UniRGB-IR [59] [cite: 150] |
 | **Modality Fusion Schemes** | [cite_start]IAF R-CNN [60], CIAN [61], BAANet [62], UA-CMDet [63], CMPD [64], E2E-MFD [65], MMPedestron [66], TFDet [67], LRAF-Net [68], M-SpecGene [69], WaveMamba [70], SemFusion [71], CSSFDet [72], Fusion-Mamba [73], MSTF [74], DMM [75], DHANet [76], MPFF [77], MDFOaNet [78], RetinexDet [79], MSFF [80], COMO [81] [cite: 150] |
 
----
-
-## 📝 Citation
-
-If you find our survey paper or this repository useful for your research, please consider citing:
-
-```bibtex
-@article{fang2025modsurvey,
-  title={Multispectral Object Detection: A Survey},
-  author={Fang, Qingyun and Gu, Lingyun and Wen, Guangwei and Liu, Chunwu and Liang, Xiaojun and Wang, Zhaokui and Zheng, Rongyue and Gao, Wen},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
-  year={2025}
-}
