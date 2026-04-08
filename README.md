@@ -24,7 +24,7 @@ This repository (**MOD-ZOO**) provides a comprehensive, continuously updated col
 ## 📖 Abstract
 
 <div align="center">
-  <img src="figures/overview.png" width="90%" alt="Unified Framework">
+  <img src="figures/overview.png" width="50%" alt="Unified Framework">
   <p><em>Figure 1. Overview of our paper.</em></p>
 </div>
 
