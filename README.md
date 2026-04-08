@@ -32,12 +32,12 @@ To provide a systematic survey, a unified four-stage mathematical framework is e
 ## 🖼️ Unified Framework & Taxonomy
 
 <div align="center">
-  <img src="figures/MOD.png" width="90%" alt="Unified Framework">
+  <img src="figures/MOD.png" width="85%" alt="Unified Framework">
   <p><em>Figure 1. A unified four-stage framework and systematic taxonomy of MOD.</em></p>
 </div>
 
 <div align="center">
-  <img src="figures/taxonomy.png" width="70%" alt="Taxonomy">
+  <img src="figures/taxonomy.png" width="75%" alt="Taxonomy">
   <p><em>Figure 2. Hierarchical structural decomposition and taxonomy of the MOD landscape.</em></p>
 </div>
 
