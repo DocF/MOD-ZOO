@@ -37,7 +37,7 @@ To provide a systematic survey, a unified four-stage mathematical framework is e
 </div>
 
 <div align="center">
-  <img src="figures/taxonomy.png" width="75%" alt="Taxonomy">
+  <img src="figures/taxonomy.png" width="80%" alt="Taxonomy">
   <p><em>Figure 2. Hierarchical structural decomposition and taxonomy of the MOD landscape.</em></p>
 </div>
 
