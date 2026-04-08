@@ -1,59 +1,131 @@
+# MOD-ZOO: Multispectral Object Detection - A Unified Framework and Systematic Survey
+
 <div align="center">
 
-# 🌟 Multispectral Object Detection: A Survey & MOD-ZOO
-
-[![Paper](https://img.shields.io/badge/Paper-Arxiv-blue.svg)](#)
-[![Awesome](https://awesome.re/badge.svg)](#)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-
-**Qingyun Fang, Lingyun Gu, Guangwei Wen, Chunwu Liu, Xiaojun Liang, Zhaokui Wang, Rongyue Zheng, and Wen Gao**
-
-
----
-**MOD-ZOO** is the official repository for the comprehensive survey paper **"Multispectral Object Detection: A Survey"**. It provides a unified framework, systematic taxonomy, and an open-source benchmark leaderboard for Multispectral Object Detection (MOD).
+[![Paper](https://img.shields.io/badge/Paper-arXiv-B31B1B.svg)](https://arxiv.org/)
+[![Project Page](https://img.shields.io/badge/Project-MOD--ZOO-green.svg)](https://github.com/DocF/MOD-ZOO)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 </div>
 
-## 📢 News & Updates
-* **[2026.02]** We release the initial version of **MOD-ZOO**, featuring comprehensive leaderboards and taxonomies covering 10+ datasets and 80+ state-of-the-art algorithms!
-* **[2025.12]** Our survey paper is available on arXiv.
+This is the official repository for the preprint paper **"Multispectral Object Detection: A Unified Framework and Systematic Survey"**. 
+
+This repository (**MOD-ZOO**) provides a comprehensive, continuously updated collection of resources (papers, codes, datasets) for Multispectral Object Detection (MOD) across Ground-based and Remote Sensing scenarios.
+
+---
+
+## 📢 News
+* **[2026/04]** The comprehensive survey paper has been submitted. The preprint will be available on arXiv soon!
+* **[2026/04]** Initial release of the **MOD-ZOO** repository, including taxonomy, datasets, and paper lists.
+
+---
 
 ## 📖 Abstract
-Multispectral Object Detection (MOD) has emerged as a critical methodology to overcome the limitations of visible-light imaging, particularly under adverse conditions such as low illumination and inclement weather. By integrating complementary information across diverse spectral bands (e.g., RGB, NIR, TIR, SAR), MOD ensures robust all-day and all-weather perception. 
 
-This repository systematically deconstructs the MOD pipeline into a **unified four-stage mathematical framework**:
-1. Multispectral Data Input
-2. Feature Learning 
-3. Fusion Schemes 
-4. Detection Solutions.
+Multispectral Object Detection (MOD) has emerged as a critical methodology to overcome the limitations of visible-light imaging, particularly under adverse conditions such as low illumination and inclement weather. By integrating complementary information across diverse spectral bands, MOD ensures robust all-day and all-weather perception. 
+
+To provide a systematic survey, a unified four-stage mathematical framework is established, which deconstructs MOD into **multispectral data input**, **feature learning**, **fusion schemes**, and **detection solutions**.
 
 ---
 
-## 🏗️ The Unified Four-Stage Framework
+## 🖼️ Unified Framework & Taxonomy
 
-[cite_start]We establish a standardized foundation to inspire future research toward more robust and efficient multispectral vision systems[cite: 40]. 
+<div align="center">
+  <img src="figures/framework.png" width="90%" alt="Unified Framework">
+  <p><em>Figure 1. A unified four-stage framework and systematic taxonomy of MOD.</em></p>
+</div>
 
-<p align="center">
-  <img src="assets/framework.png" alt="Four-Stage MOD Pipeline" width="800">
-</p>
-<p align="center">
-  <em>Schematic illustration of the four-stage MOD pipeline. [cite_start]Modality-specific extractors encode inputs, aggregated via a cross-modal fusion mechanism, and decoded by the detection head[cite: 136].</em>
-</p>
+<div align="center">
+  <img src="figures/taxonomy.png" width="90%" alt="Taxonomy">
+  <p><em>Figure 2. Hierarchical structural decomposition and taxonomy of the MOD landscape.</em></p>
+</div>
 
 ---
 
-## 📚 Taxonomy of Representative Methods
+## 🗂️ Datasets & Benchmarks
 
-We propose an extensive taxonomy of learning strategies designed to mitigate fundamental representation challenges. Below is a categorized overview of representative algorithms in the MOD landscape.
+An overview of representative MOD datasets spanning ground-based and remote sensing scenarios.
 
-| Research Challenge | Representative Methods |
-| :--- | :--- |
-| **Small Object Detection** | [cite_start]HMFFN [7], ASMPD [21], QFDet [22], SuperYOLO [23], AMSDet [24], ProbEn [4] [cite: 150] |
-| **Robust Object Detection** | [cite_start]LF-MDet [25], VL-ACFDet [26], HA-MLPD [27], RRD [28], CFMW [6] [cite: 150] |
-| **Adversarial Attack** | [cite_start]SRG-ASRP [29], MIC [30] [cite: 150] |
-| **Modality Misalignment** | [cite_start]AR-CNN [31], TSFADet [32], AANet [33], CALNet [34], MFPT [35], OAFA [36], DAMSDet [37], L-CMAF [38], YOLO-Adaptor [39], DeformCAT [40], SeaDATE [41] [cite: 150] |
-| **Modality Imbalance** | [cite_start]MBNet [8], CMM [42], DCSANet [43], MS-DETR [44], EMOD [45], DKDNet [46] [cite: 150] |
-| **Modality Redundancy** | [cite_start]MSCoTDet [47], YOLOFusion [48], RISNet [49], DHFNet [50] [cite: 150] |
-| **Modality Adaption** | [cite_start]CMT-CNN [51], UMAD [52], TC-Det [53], VPD [54], DCRL-PDN [55], TIRDet [56], D3T [57], ModTr [58], M²D-LIF [5], UniRGB-IR [59] [cite: 150] |
-| **Modality Fusion Schemes** | [cite_start]IAF R-CNN [60], CIAN [61], BAANet [62], UA-CMDet [63], CMPD [64], E2E-MFD [65], MMPedestron [66], TFDet [67], LRAF-Net [68], M-SpecGene [69], WaveMamba [70], SemFusion [71], CSSFDet [72], Fusion-Mamba [73], MSTF [74], DMM [75], DHANet [76], MPFF [77], MDFOaNet [78], RetinexDet [79], MSFF [80], COMO [81] [cite: 150] |
+| Dataset | Modality | Platform | Img Pairs | Resolution | Alignment |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **KAIST** | RGB-TIR | Driving | 95,328 | 640x480 | ✓ |
+| **FLIR-aligned** | RGB-TIR | Driving | 5,142 | 640x512 | ✓ |
+| **LLVIP** | RGB-TIR | Surveillance | 16,836 | 1080x720 | ✓ |
+| **Drone Vehicle** | RGB-TIR | Drone | 28,439 | 840x712 | ✗ |
+| **OGSOD-2.0** | RGB-SAR | Satellite | 23,462 | 256x256 | ✗ |
 
+---
+
+## 📚 Paper List (The MOD Zoo)
+
+We categorize representative methods according to our proposed taxonomy.
+
+### 1. Feature Learning (Mitigating Representation Challenges)
+This section addresses fundamental representation challenges: spatial misalignment, modality imbalance, and information redundancy.
+
+#### Modality Misalignment
+| Year | Venue | Method | Title | Modality | Paper | Code |
+| :--- | :---: | :--- | :--- | :---: | :---: | :---: |
+| 2026 | AAAI | IGIANet | Illumination Guided Implicit Alignment Network for Infrared-Visible UAV Detection | RGB-TIR | [Paper](#) | [Code](#) |
+| 2025 | TMM | DeformCAT | Deformable Cross-Attention Transformer for Weakly Aligned RGB-T Pedestrian Detection | RGB-TIR | [Paper](#) | [Code](#) |
+| 2025 | TCSVT | SeaDATE | Remedy Dual-Attention Transformer with Semantic Alignment via Contrast Learning for Multimodal Object Detection | RGB-TIR | [Paper](#) | [Code](#) |
+| 2024 | CVPR | OAFA | Weakly Misalignment-Free Adaptive Feature Alignment for UAVs-based Multimodal Object Detection | RGB-TIR | [Paper](#) | [Code](#) |
+| 2024 | ECCV | DAMSDet | Dynamic Adaptive Multispectral Detection Transformer with Competitive Query Selection and Adaptive Feature Fusion | RGB-TIR | [Paper](#) | [Code](#) |
+| 2023 | MM | AANet | Attentive Alignment Network for Multispectral Pedestrian Detection | RGB-TIR | [Paper](#) | [Code](#) |
+
+#### Modality Imbalance
+| Year | Venue | Method | Title | Modality | Paper | Code |
+| :--- | :---: | :--- | :--- | :---: | :---: | :---: |
+| 2025 | TGRS | BDFusion | Diffusion Mechanism and Knowledge Distillation Object Detection in Multimodal Remote Sensing Imagery | RGB-SAR | [Paper](#) | [Code](#) |
+| 2025 | InfFus| EMOD | Efficient Multispectral Object Detection with Attentive Feature Aggregation Leveraging Zero-Shot Implicit Illumination Guidance | RGB-TIR | [Paper](#) | [Code](#) |
+| 2025 | ICCV | $M^2D-LIF$ | Rethinking Multi-Modal Object Detection from the Perspective of Mono-Modality Feature Learning | RGB-TIR | [Paper](#) | [Code](#) |
+| 2024 | CVPR | CMM | Causal Mode Multiplexer: A Novel Framework for Unbiased Multispectral Pedestrian Detection | RGB-TIR | [Paper](#) | [Code](#) |
+
+#### Modality Redundancy & Asymmetry
+| Year | Venue | Method | Title | Strategy | Paper | Code |
+| :--- | :---: | :--- | :--- | :--- | :---: | :---: |
+| 2025 | MM | UniRGB-IR | A Unified Framework for Visible-Infrared Semantic Tasks via Adapter Tuning | Adapter Tuning | [Paper](#) | [Code](#) |
+| 2024 | ECCV | ModTr | Modality Translation for Object Detection Adaptation Without Forgetting Prior Knowledge | Modality Translation | [Paper](#) | [Code](#) |
+| 2024 | NeuCom| DHFNet | Decoupled Hierarchical Fusion Network for RGB-T Dense Prediction Tasks | Redundancy Suppression | [Paper](#) | [Code](#) |
+
+---
+
+### 2. Fusion Scheme
+Categorized by Fusion Stage Design and Fusion Function Construction.
+
+#### Advanced Fusion Functions (Transformer & Mamba)
+| Year | Venue | Method | Title | Backbone | Function | Paper | Code |
+| :--- | :---: | :--- | :--- | :---: | :---: | :---: | :---: |
+| 2026 | InfFus| MSFF | Multispectral State-Space Feature Fusion: Bridging Shared and Cross-Parametric Interactions for Object Detection | FCOS | Mamba | [Paper](#) | [Code](#) |
+| 2025 | ICCV | M-SpecGene| Generalized Foundation Model for RGBT Multispectral Vision | ViTDet | Transformer | [Paper](#) | [Code](#) |
+| 2025 | ICCV | WaveMamba | Wavelet-Driven Mamba Fusion for RGB-Infrared Object Detection | YOLOv8 | Mamba | [Paper](#) | [Code](#) |
+| 2025 | TMM | Fusion-Mamba| Fusion-Mamba for Cross-Modality Object Detection | YOLOv8 | Mamba | [Paper](#) | [Code](#) |
+| 2025 | PR | MSTF | Multispectral Transformer Fusion via Exploiting Similarity and Complementarity for Robust Pedestrian Detection | YOLOv5 | Transformer | [Paper](#) | [Code](#) |
+
+---
+
+### 3. Detection Solutions (Task-Specific)
+
+| Category | Year | Venue | Method | Title | Key Idea | Paper | Code |
+| :--- | :---: | :---: | :--- | :--- | :--- | :---: | :---: |
+| **Robust** | 2025 | RAL | HA-MLPD | Hybrid Attention for Robust RGB-T Pedestrian Detection in Real-World Conditions | Hybrid attention prevents degradation under sensor blackouts | [Paper](#) | [Code](#) |
+| **Robust** | 2025 | TCSVT | CFMW | CFMW: Cross-Modality Fusion Mamba for Robust Object Detection Under Adverse Weather | Mamba fusion integrates diffusion-based weather removal | [Paper](#) | [Code](#) |
+| **Small Obj** | 2025 | TIM | AMSDet | Adaptive Modality Selection Drone-Based RGBT Detector for Tiny Targets | Adaptive selection filters redundancy for tiny object detection | [Paper](#) | [Code](#) |
+| **Adversarial** | 2025 | MM | CDUPatch | Color-Driven Universal Adversarial Patch Attack for Dual-Modal Visible-Infrared Detectors | Color-thermal mapping for cross-modal adversarial textures | [Paper](#) | [Code](#) |
+
+*(Note: We welcome pull requests to update this list with the latest SOTA papers!)*
+
+---
+
+## 📝 Citation
+
+If you find this repository or our survey helpful for your research, please consider citing our paper:
+
+```bibtex
+@article{fang2024multispectral,
+  title={Multispectral Object Detection: A Unified Framework and Systematic Survey},
+  author={Fang, Qingyun and Gu, Lingyun and Wen, Guangwei and Liu, Chunwu and Liang, Xiaojun and Wang, Zhaokui and Zheng, Rongyue and Gao, Wen},
+  journal={arXiv preprint},
+  year={2026}
+}
