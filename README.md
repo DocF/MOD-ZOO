@@ -23,6 +23,12 @@ This repository (**MOD-ZOO**) provides a comprehensive, continuously updated col
 
 ## 📖 Abstract
 
+<div align="center">
+  <img src="figures/overview.pdf" width="90%" alt="Unified Framework">
+  <p><em>Figure 1. Overview of our paper.</em></p>
+</div>
+
+
 Multispectral Object Detection (MOD) has emerged as a critical methodology to overcome the limitations of visible-light imaging, particularly under adverse conditions such as low illumination and inclement weather. By integrating complementary information across diverse spectral bands, MOD ensures robust all-day and all-weather perception. 
 
 To provide a systematic survey, a unified four-stage mathematical framework is established, which deconstructs MOD into **multispectral data input**, **feature learning**, **fusion schemes**, and **detection solutions**.
@@ -32,13 +38,13 @@ To provide a systematic survey, a unified four-stage mathematical framework is e
 ## 🖼️ Unified Framework & Taxonomy
 
 <div align="center">
-  <img src="figures/framework.png" width="90%" alt="Unified Framework">
-  <p><em>Figure 1. A unified four-stage framework and systematic taxonomy of MOD.</em></p>
+  <img src="figures/MOD.pdf" width="90%" alt="Unified Framework">
+  <p><em>Figure 2. A unified four-stage framework and systematic taxonomy of MOD.</em></p>
 </div>
 
 <div align="center">
   <img src="figures/taxonomy.png" width="90%" alt="Taxonomy">
-  <p><em>Figure 2. Hierarchical structural decomposition and taxonomy of the MOD landscape.</em></p>
+  <p><em>Figure 3. Hierarchical structural decomposition and taxonomy of the MOD landscape.</em></p>
 </div>
 
 ---
