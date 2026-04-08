@@ -24,7 +24,7 @@ This repository (**MOD-ZOO**) provides a comprehensive, continuously updated col
 ## 📖 Abstract
 
 <div align="center">
-  <img src="figures/overview.pdf" width="90%" alt="Unified Framework">
+  <img src="figures/overview.png" width="90%" alt="Unified Framework">
   <p><em>Figure 1. Overview of our paper.</em></p>
 </div>
 
@@ -38,12 +38,12 @@ To provide a systematic survey, a unified four-stage mathematical framework is e
 ## 🖼️ Unified Framework & Taxonomy
 
 <div align="center">
-  <img src="figures/MOD.pdf" width="90%" alt="Unified Framework">
+  <img src="figures/MOD.png" width="60%" alt="Unified Framework">
   <p><em>Figure 2. A unified four-stage framework and systematic taxonomy of MOD.</em></p>
 </div>
 
 <div align="center">
-  <img src="figures/taxonomy.png" width="90%" alt="Taxonomy">
+  <img src="figures/taxonomy.png" width="80%" alt="Taxonomy">
   <p><em>Figure 3. Hierarchical structural decomposition and taxonomy of the MOD landscape.</em></p>
 </div>
 
