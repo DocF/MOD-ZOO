@@ -103,19 +103,18 @@ This section addresses fundamental representation challenges:
 
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
-| ICCV'19 | AR-CNN | Weakly Aligned Cross-Modal Learning for Multispectral Pedestrian Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| ECCV'22 | TSFADet | Translation, Scale and Rotation: Cross-Modal Alignment Meets RGB-Infrared Vehicle Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| MM'23 | AANet | Attentive Alignment Network for Multispectral Pedestrian Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| MM'23 | CALNet | Multispectral Object Detection via Cross-Modal Conflict-Aware Learning | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TITS'23 | MFPT | Multi-Modal Feature Pyramid Transformer for RGB-Infrared Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| AAAI'26 | IGIANet | Illumination Guided Implicit Alignment Network for Infrared-Visible UAV Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TMM'25 | DeformCAT | Deformable Cross-Attention Transformer for Weakly Aligned RGB-T Pedestrian Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TCSVT'25 | SeaDATE | Remedy Dual-Attention Transformer with Semantic Alignment via Contrast Learning for Multimodal Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
 | CVPR'24 | OAFA | Weakly Misalignment-Free Adaptive Feature Alignment for UAVs-Based Multimodal Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
 | ECCV'24 | DAMSDet | Dynamic Adaptive Multispectral Detection Transformer with Competitive Query Selection and Adaptive Feature Fusion | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
 | ICIP'24 | L-CMAF | Revisiting Misalignment in Multispectral Pedestrian Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
 | TIV'24 | YOLO-Adaptor | A Fast Adaptive One-Stage Detector for Non-Aligned Visible-Infrared Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TMM'25 | DeformCAT | Deformable Cross-Attention Transformer for Weakly Aligned RGB-T Pedestrian Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TCSVT'25 | SeaDATE | Remedy Dual-Attention Transformer with Semantic Alignment via Contrast Learning for Multimodal Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| AAAI'26 | IGIANet | Illumination Guided Implicit Alignment Network for Infrared-Visible UAV Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-
+| MM'23 | AANet | Attentive Alignment Network for Multispectral Pedestrian Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| MM'23 | CALNet | Multispectral Object Detection via Cross-Modal Conflict-Aware Learning | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TITS'23 | MFPT | Multi-Modal Feature Pyramid Transformer for RGB-Infrared Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| ECCV'22 | TSFADet | Translation, Scale and Rotation: Cross-Modal Alignment Meets RGB-Infrared Vehicle Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| ICCV'19 | AR-CNN | Weakly Aligned Cross-Modal Learning for Multispectral Pedestrian Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
 
 #### Modality Imbalance
 | Venue | Methods | Title | Modality | Source |
