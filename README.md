@@ -14,10 +14,10 @@ This is the official repository for the preprint paper **"Multispectral Object D
 This repository (**MOD-ZOO**) provides a comprehensive, continuously updated collection of resources (papers, codes, datasets) for Multispectral Object Detection (MOD) across Ground-based and Remote Sensing scenarios.
 
 ---
+
+## 📑 Table of Contents
 <img align="right" width="45%" src="figures/publication.png" alt="MOD Publications over the past decade">
 
-- [📢 News](#-news)
-## 📑 Table of Contents
 - [📢 News](#-news)
 - [📝 Citation](#-citation)
 - [📖 Abstract](#-abstract)
