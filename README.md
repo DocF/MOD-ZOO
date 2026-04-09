@@ -101,12 +101,12 @@ This section addresses fundamental representation challenges: **modality misalig
 #### Modality Misalignment
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
-| AAAI '26 | IGIANet | Illumination Guided Implicit Alignment Network for Infrared-Visible UAV Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TMM '25 | DeformCAT | Deformable Cross-Attention Transformer for Weakly Aligned RGB-T Pedestrian Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TCSVT '25 | SeaDATE | Remedy Dual-Attention Transformer with Semantic Alignment via Contrast Learning for Multimodal Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| CVPR '24 | OAFA | Weakly Misalignment-Free Adaptive Feature Alignment for UAVs-based Multimodal Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| ECCV '24 | DAMSDet | Dynamic Adaptive Multispectral Detection Transformer with Competitive Query Selection and Adaptive Feature Fusion | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| MM '23 | AANet | Attentive Alignment Network for Multispectral Pedestrian Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| AAAI'26 | IGIANet | Illumination Guided Implicit Alignment Network for Infrared-Visible UAV Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TMM'25 | DeformCAT | Deformable Cross-Attention Transformer for Weakly Aligned RGB-T Pedestrian Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TCSVT'25 | SeaDATE | Remedy Dual-Attention Transformer with Semantic Alignment via Contrast Learning for Multimodal Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| CVPR'24 | OAFA | Weakly Misalignment-Free Adaptive Feature Alignment for UAVs-based Multimodal Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| ECCV'24 | DAMSDet | Dynamic Adaptive Multispectral Detection Transformer with Competitive Query Selection and Adaptive Feature Fusion | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| MM'23 | AANet | Attentive Alignment Network for Multispectral Pedestrian Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
 
 #### Modality Imbalance
 | Venue | Methods | Title | Modality | Source |
