@@ -55,7 +55,7 @@ Building upon the concepts introduced above, the following figures visualize the
 
 An overview of representative MOD datasets spanning ground-based and remote sensing scenarios.
 <div align="center">
-  <img src="figures/electromagnetic_spectrum2.png" width="80%" alt="Taxonomy">
+  <img src="figures/electromagnetic_spectrum2.png" width="80%" alt="Spectrum">
   <p><em>Figure 3. Electromagnetic spectrum mapping and visual comparisons.</em></p>
 </div>
 
@@ -163,6 +163,14 @@ This section addresses fundamental representation challenges: 
 
 ### 2. Fusion Scheme
 Categorized by Fusion Stage Design and Fusion Function Construction.
+<div align="center">
+  <img src="figures/fusion-stage.png" width="100%" alt="Stage">
+  <p><em>Figure 4. Fusion Stage Design.</em></p>
+</div>
+<div align="center">
+  <img src="figures/fusion-func.png" width="80%" alt="Function">
+  <p><em>Figure 5. Fusion Function Construction.</em></p>
+</div>
 
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
