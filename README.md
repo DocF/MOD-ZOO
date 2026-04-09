@@ -55,7 +55,6 @@ An overview of representative MOD datasets spanning ground-based and remote sens
 
 ### Ground-based Datasets
 
-<small>
 *(Legend: **Pairs** = Img Pairs, **Res.** = Resolution, **Plat.** = Platform, **Cls** = Class, **A/O** = Alignment / Occlusion)*
 
 | Dataset | Venue | Modality | Pairs | Res. | Plat. | Cls | Den. | A/O | Link |
@@ -68,11 +67,11 @@ An overview of representative MOD datasets spanning ground-based and remote sens
 | SMOD | TMM'25 | <nobr>RGB-TIR</nobr> | 8.6K | 640x512 | Driving | 4 | 3.62 | ✅/✅ | [Link](#) |
 | MFAD | TCSVT'25 | <nobr>RGB-TIR</nobr> | 12.1K | 1280x960 | Driving | 6 | 7.13 | ✅/❌ | [Link](#) |
 
-</small>
+
 
 ### Remote Sensing Datasets
 
-<small>
+
 *(Legend: **Pairs** = Img Pairs, **Res.** = Resolution, **Plat.** = Platform, **Cls** = Class, **A/O** = Alignment / Occlusion)*
 
 | Dataset | Venue | Modality | Pairs | Res. | Plat. | Cls | Den. | A/O | Link |
@@ -87,7 +86,7 @@ An overview of representative MOD datasets spanning ground-based and remote sens
 | OGSOD-1.0 | TGRS'23 | <nobr>RGB-SAR</nobr> | 14.6K | 256x256 | Sat. | 3 | 2.62 | ✅/❌ | [Link](#) |
 | OGSOD-2.0 | ICGIP'25 | <nobr>RGB-SAR</nobr> | 23.4K | 256x256 | Sat. | 4 | 3.24 | ✅/❌ | [Link](#) |
 
-</small>
+
 ---
 
 ## 📚 Paper List (The MOD Zoo)
