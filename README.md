@@ -96,7 +96,8 @@ An overview of representative MOD datasets spanning ground-based and remote sens
 We categorize representative methods according to our proposed taxonomy.
 
 ### 1. Feature Learning (Mitigating Representation Challenges)
-This section addresses fundamental representation challenges: **modality misalignment**, **modality imbalance**, **information redundancy**, and **modality asymmetry**.
+This section addresses fundamental representation challenges: 
+**Modality Misalignment**, **Modality Imbalance**, **Modality Redundancy**, and **Modality Asymmetry**.
 
 #### Modality Misalignment
 | Venue | Methods | Title | Modality | Source |
