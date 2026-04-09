@@ -70,7 +70,7 @@ An overview of representative MOD datasets spanning ground-based and remote sens
 ### Remote Sensing Datasets
 
 
-*(Legend: **Pairs** = Img Pairs, **Res.** = Resolution, **Plat.** = Platform(Surv. = Surveillance, Multi. = Multiple), **Cls** = Class, **A/O** = Alignment / Occlusion)*
+*(Legend: **Pairs** = Img Pairs, **Res.** = Resolution, **Plat.** = Platform, **Cls** = Class, **A/O** = Alignment / Occlusion)*
 
 | Dataset | Venue | Modality | Pairs | Res. | Plat. | Cls | Den. | A/O | Link |
 | :--- | :---: | :---: | :---: | :---: | :--- | :---: | :---: | :---: | :---: |
