@@ -184,7 +184,7 @@ Categorized by Fusion Stage Design and Fusion Function Construction.
 ---
 
 ### 3. Detection Solutions (Task-Specific)
-This section categorizes detection solutions based on specific application challenges: small object detection, robust perception under adverse conditions, and adversarial attacks.
+This section categorizes detection solutions based on specific application challenges: **Small Object Detection**, **Robust Perception Under Adverse Conditions**, and **Adversarial Attacks**.
 
 #### Small Object Detection
 
