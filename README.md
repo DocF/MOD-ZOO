@@ -101,7 +101,7 @@ This section addresses fundamental representation challenges:
 
 #### Modality Misalignment
 | Venue | Methods | Title | Modality | Source |
-| :---: | :--- | :--- | :---: | :---: |
+| :---: | :--- | :--- | :----: | :---: |
 | AAAI'26 | IGIANet | Illumination Guided Implicit Alignment Network for Infrared-Visible UAV Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
 | TMM'25 | DeformCAT | Deformable Cross-Attention Transformer for Weakly Aligned RGB-T Pedestrian Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
 | TCSVT'25 | SeaDATE | Remedy Dual-Attention Transformer with Semantic Alignment via Contrast Learning for Multimodal Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
