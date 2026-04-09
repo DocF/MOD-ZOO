@@ -31,6 +31,15 @@ To provide a systematic survey, a unified four-stage mathematical framework is e
 
 ## 🖼️ Unified Framework & Taxonomy
 
+Building upon the concepts introduced above, the following figures visualize the structural breakdown of our survey.
+
+* **Figure 1** illustrates the detailed data flow of the unified mathematical framework, mapping the progression from raw multispectral inputs to final detection outputs.
+* **Figure 2** expands this framework into a fine-grained hierarchical taxonomy. It categorizes recent state-of-the-art literature based on their specific strategies to overcome core cross-modal challenges.
+
+*This taxonomy directly dictates the organization of the paper list in the following sections.*
+
+<br>
+
 <div align="center">
   <img src="figures/MOD.png" width="85%" alt="Unified Framework">
   <p><em>Figure 1. A unified four-stage framework and systematic taxonomy of MOD.</em></p>
@@ -41,7 +50,6 @@ To provide a systematic survey, a unified four-stage mathematical framework is e
   <p><em>Figure 2. Hierarchical structural decomposition and taxonomy of the MOD landscape.</em></p>
 </div>
 
----
 
 ## 🗂️ Datasets & Benchmarks
 
