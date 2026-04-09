@@ -16,7 +16,7 @@ This repository (**MOD-ZOO**) provides a comprehensive, continuously updated col
 ---
 
 ## 📑 Table of Contents
-<img align="right" width="47%" src="figures/publication.png" alt="MOD Publications over the past decade">
+<img align="right" width="45%" src="figures/pub.png" alt="MOD Publications over the past decade">
 
 - [📢 News](#-news)
 - [📝 Citation](#-citation)
