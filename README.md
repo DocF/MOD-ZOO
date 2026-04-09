@@ -76,15 +76,15 @@ An overview of representative MOD datasets spanning ground-based and remote sens
 
 | Dataset | Venue | Modality | Pairs | Res. | Plat. | Cls | Den. | A/O | Link |
 | :--- | :---: | :---: | :---: | :---: | :--- | :---: | :---: | :---: | :---: |
-| VEDAI | JVCI'16 | <nobr>RGB-NIR</nobr> | 1.2K | 1024x1024 | Drone | 9 | 2.93 | ✅/❌ | [Link](#) |
-| DroneVehicle | TCSVT'21 | <nobr>RGB-TIR</nobr> | 28.4K | 840x712 | Drone | 1 | 16.7 | ❌/❌ | [Link](#) |
-| DronePerson | ISPRS'23 | <nobr>RGB-TIR</nobr> | 6.1K | 640x512 | Drone | 1 | 11.6 | ✅/❌ | [Link](#) |
-| DVTOD | TIV'24 | <nobr>RGB-TIR</nobr> | 2.1K | 1920x1080 | Drone | 3 | 2.82 | ❌/❌ | [Link](#) |
-| OdinMJ | GRSM'24 | <nobr>RGB-TIR</nobr> | 23K | 640x512 | Drone | 1 | 1.98 | ✅/✅ | [Link](#) |
-| RGBT-Tiny | TPAMI'25 | <nobr>RGB-TIR</nobr> | ~47.5K| 640x512 | Drone | 7 | 12.9 | ✅/❌ | [Link](#) |
-| SpaceNet6-OTD| TGRS'22 | <nobr>RGB-SAR</nobr> | 820 | 900x900 | Sat. | 1 | 22.0 | ✅/❌ | [Link](#) |
-| OGSOD-1.0 | TGRS'23 | <nobr>RGB-SAR</nobr> | 14.6K | 256x256 | Sat. | 3 | 2.62 | ✅/❌ | [Link](#) |
-| OGSOD-2.0 | ICGIP'25 | <nobr>RGB-SAR</nobr> | 23.4K | 256x256 | Sat. | 4 | 3.24 | ✅/❌ | [Link](#) |
+| VEDAI | JVCI'16 | <nobr>R-NIR</nobr> | 1.2K | 1024x1024 | UAV | 9 | 2.93 | ✅/❌ | [Link](#) |
+| DroneVehicle | TCSVT'21 | <nobr>R-TIR</nobr> | 28.4K | 840x712 | UAV | 1 | 16.7 | ❌/❌ | [Link](#) |
+| DronePerson | ISPRS'23 | <nobr>R-TIR</nobr> | 6.1K | 640x512 | UAV | 1 | 11.6 | ✅/❌ | [Link](#) |
+| DVTOD | TIV'24 | <nobr>R-TIR</nobr> | 2.1K | 1920x1080 | UAV | 3 | 2.82 | ❌/❌ | [Link](#) |
+| OdinMJ | GRSM'24 | <nobr>R-TIR</nobr> | 23K | 640x512 | UAV | 1 | 1.98 | ✅/✅ | [Link](#) |
+| RGBT-Tiny | TPAMI'25 | <nobr>R-TIR</nobr> | ~47.5K| 640x512 | UAV | 7 | 12.9 | ✅/❌ | [Link](#) |
+| SpaceNet6-OTD| TGRS'22 | <nobr>R-SAR</nobr> | 820 | 900x900 | Sat. | 1 | 22.0 | ✅/❌ | [Link](#) |
+| OGSOD-1.0 | TGRS'23 | <nobr>R-SAR</nobr> | 14.6K | 256x256 | Sat. | 3 | 2.62 | ✅/❌ | [Link](#) |
+| OGSOD-2.0 | ICGIP'25 | <nobr>R-SAR</nobr> | 23.4K | 256x256 | Sat. | 4 | 3.24 | ✅/❌ | [Link](#) |
 
 
 ---
