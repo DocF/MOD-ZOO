@@ -128,14 +128,29 @@ This section addresses fundamental representation challenges:
 | CVPR'24 | CMM | Causal Mode Multiplexer: A Novel Framework for Unbiased Multispectral Pedestrian Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
 | ECCV'22 | MBNet | Improving Multispectral Pedestrian Detection by Addressing Modality Imbalance Problems | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
 
-</small>
 
-#### Modality Redundancy & Asymmetry
+#### Modality Redundancy
+
+| Venue | Methods | Title | Modality | Source |
+| :---: | :--- | :--- | :---: | :---: |
+| NeuCom'24 | DHFNet | Decoupled Hierarchical Fusion Network for RGB-T Dense Prediction Tasks | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| RS'22 | RISNet | Improving RGB-Infrared Object Detection by Reducing Cross-Modality Redundancy | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| PR'22 | YOLOFusion | Cross-Modality Attentive Feature Fusion for Object Detection in Multispectral Remote Sensing Imagery | <nobr>RGB-NIR</nobr> | [Paper](#)/[Code](#) |
+
+#### Modality Asymmetry
+
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
 | MM'25 | UniRGB-IR | A Unified Framework for Visible-Infrared Semantic Tasks via Adapter Tuning | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
 | ECCV'24 | ModTr | Modality Translation for Object Detection Adaptation Without Forgetting Prior Knowledge | <nobr>TIR</nobr> | [Paper](#)/[Code](#) |
-| NeuCom'24| DHFNet | Decoupled Hierarchical Fusion Network for RGB-T Dense Prediction Tasks | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| CVPR'24 | D3T | Distinctive Dual-Domain Teacher Zigzagging Across RGB-Thermal Gap for Domain-Adaptive Object Detection | <nobr>TIR</nobr> | [Paper](#)/[Code](#) |
+| MM'23 | TIRDet | TIRDet: Mono-Modality Thermal Infrared Object Detection Based on Prior Thermal-to-Visible Translation | <nobr>TIR</nobr> | [Paper](#)/[Code](#) |
+| TCSVT'22 | DCRL-PDN | Deep Cross-Modal Representation Learning and Distillation for Illumination-Invariant Pedestrian Detection | <nobr>RGB</nobr> | [Paper](#)/[Code](#) |
+| AAAI'22 | VPD | Towards Versatile Pedestrian Detector with Multisensory-Matching and Multispectral Recalling Memory | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| ECCV'20 | TC-Det | Task-Conditioned Domain Adaptation for Pedestrian Detection in Thermal Imagery | <nobr>TIR</nobr> | [Paper](#)/[Code](#) |
+| CVPRW'19 | UMAD | Unsupervised Domain Adaptation for Multispectral Pedestrian Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| CVPR'17 | CMT-CNN | Learning Cross-Modal Deep Representations for Robust Pedestrian Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+
 
 ---
 
