@@ -53,6 +53,8 @@ An overview of representative MOD datasets spanning ground-based and remote sens
 
 ### Ground-based Datasets
 
+<small>
+
 | Dataset | Venue | Modality | Img Pairs | Resolution | Platform | Class | Den. | Align | Occ. | Link |
 | :--- | :---: | :---: | :---: | :---: | :--- | :---: | :---: | :---: | :---: | :---: |
 | KAIST | CVPR'15 | <nobr>RGB-TIR</nobr> | 95,328 | 640x480 | Driving | 1 | 0.62 | ✅ | ✅ | [Link](#) |
@@ -63,19 +65,25 @@ An overview of representative MOD datasets spanning ground-based and remote sens
 | SMOD | TMM'25 | <nobr>RGB-TIR</nobr> | 8,676 | 640x512 | Driving | 4 | 3.62 | ✅ | ✅ | [Link](#) |
 | MFAD | TCSVT'25 | <nobr>RGB-TIR</nobr> | 12,194 | 1280x960 | Driving | 6 | 7.13 | ✅ | ❌ | [Link](#) |
 
+</small>
+
 ### Remote Sensing Datasets
+
+<small>
 
 | Dataset | Venue | Modality | Img Pairs | Resolution | Platform | Class | Den. | Align | Occ. | Link |
 | :--- | :---: | :---: | :---: | :---: | :--- | :---: | :---: | :---: | :---: | :---: |
-| VEDAI | JVCI '16 | <nobr>RGB-NIR</nobr> | 1,264 | 1024 x 1024 | Drone | 9 | 2.93 | ✅ | ❌ | [Link](#) |
-| DroneVehicle | TCSVT '21 | <nobr>RGB-TIR</nobr> | 28,439 | 840 x 712 | Drone | 1 | 16.7 | ❌ | ❌ | [Link](#) |
-| DronePerson | ISPRS '23 | <nobr>RGB-TIR</nobr> | 6,125 | 640 x 512 | Drone | 1 | 11.6 | ✅ | ❌ | [Link](#) |
-| DVTOD | TIV '24 | <nobr>RGB-TIR</nobr> | 2,179 | 1920 x 1080 | Drone | 3 | 2.82 | ❌ | ❌ | [Link](#) |
-| OdinMJ | GRSM '24 | <nobr>RGB-TIR</nobr> | 23,075 | 640 x 512 | Drone | 1 | 1.98 | ✅ | ✅ | [Link](#) |
-| RGBT-Tiny | TPAMI '25 | <nobr>RGB-TIR</nobr> | ~ 47,500 | 640 x 512 | Drone | 7 | 12.9 | ✅ | ❌ | [Link](#) |
-| SpaceNet6-OTD | TGRS '22 | <nobr>RGB-SAR</nobr> | 820 | 900 x 900 | Satellite | 1 | 22.0 | ✅ | ❌ | [Link](#) |
-| OGSOD-1.0 | TGRS '23 | <nobr>RGB-SAR</nobr> | 14,665 | 256 x 256 | Satellite | 3 | 2.62 | ✅ | ❌ | [Link](#) |
-| OGSOD-2.0 | ICGIP '25 | <nobr>RGB-SAR</nobr> | 23,462 | 256 x 256 | Satellite | 4 | 3.24 | ✅ | ❌ | [Link](#) |
+| VEDAI | JVCI'16 | <nobr>RGB-NIR</nobr> | 1,264 | 1024x1024 | Drone | 9 | 2.93 | ✅ | ❌ | [Link](#) |
+| DroneVehicle | TCSVT'21 | <nobr>RGB-TIR</nobr> | 28,439 | 840x712 | Drone | 1 | 16.7 | ❌ | ❌ | [Link](#) |
+| DronePerson | ISPRS'23 | <nobr>RGB-TIR</nobr> | 6,125 | 640x512 | Drone | 1 | 11.6 | ✅ | ❌ | [Link](#) |
+| DVTOD | TIV'24 | <nobr>RGB-TIR</nobr> | 2,179 | 1920x1080 | Drone | 3 | 2.82 | ❌ | ❌ | [Link](#) |
+| OdinMJ | GRSM'24 | <nobr>RGB-TIR</nobr> | 23,075 | 640x512 | Drone | 1 | 1.98 | ✅ | ✅ | [Link](#) |
+| RGBT-Tiny | TPAMI'25 | <nobr>RGB-TIR</nobr> | ~ 47,500 | 640x512 | Drone | 7 | 12.9 | ✅ | ❌ | [Link](#) |
+| SpaceNet6-OTD | TGRS'22 | <nobr>RGB-SAR</nobr> | 820 | 900x900 | Satellite | 1 | 22.0 | ✅ | ❌ | [Link](#) |
+| OGSOD-1.0 | TGRS'23 | <nobr>RGB-SAR</nobr> | 14,665 | 256x256 | Satellite | 3 | 2.62 | ✅ | ❌ | [Link](#) |
+| OGSOD-2.0 | ICGIP'25 | <nobr>RGB-SAR</nobr> | 23,462 | 256x256 | Satellite | 4 | 3.24 | ✅ | ❌ | [Link](#) |
+
+</small>
 
 ---
 
