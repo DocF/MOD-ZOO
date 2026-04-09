@@ -17,6 +17,7 @@ This repository (**MOD-ZOO**) provides a comprehensive, continuously updated col
 
 ## 📑 Table of Contents
 - [📢 News](#-news)
+- [📝 Citation](#-citation)
 - [📖 Abstract](#-abstract)
 - [🖼️ Unified Framework & Taxonomy](#️-unified-framework--taxonomy)
 - [🗂️ Datasets & Benchmarks](#️-datasets--benchmarks)
@@ -26,8 +27,7 @@ This repository (**MOD-ZOO**) provides a comprehensive, continuously updated col
   - [1. Feature Learning](#1-feature-learning-mitigating-representation-challenges)
   - [2. Fusion Scheme](#2-fusion-scheme)
   - [3. Detection Solutions](#3-detection-solutions-task-specific)
-- [📝 Citation](#-citation)
-  
+
 ---
 
 ## 📢 News
@@ -35,6 +35,21 @@ This repository (**MOD-ZOO**) provides a comprehensive, continuously updated col
 * **[2026/04]** 🔥🔥Initial release of the **MOD-ZOO** repository, including taxonomy, datasets, and paper lists.
 
 ---
+
+## 📝 Citation
+
+If you find this repository or our survey helpful for your research, please consider citing our paper:
+
+```bibtex
+@article{fang2024multispectral,
+  title={Multispectral Object Detection: A Unified Framework and Systematic Survey},
+  author={Fang, Qingyun and Gu, Lingyun and Wen, Guangwei and Liu, Chunwu and Liang, Xiaojun and Wang, Zhaokui and Zheng, Rongyue and Gao, Wen},
+  journal={arXiv preprint},
+  year={2026}
+}
+
+---
+
 
 ## 📖 Abstract
 
@@ -252,16 +267,3 @@ This section categorizes detection solutions based on specific application chall
 *(Note: We welcome pull requests to update this list with the latest SOTA papers!)*
 
 
----
-
-## 📝 Citation
-
-If you find this repository or our survey helpful for your research, please consider citing our paper:
-
-```bibtex
-@article{fang2024multispectral,
-  title={Multispectral Object Detection: A Unified Framework and Systematic Survey},
-  author={Fang, Qingyun and Gu, Lingyun and Wen, Guangwei and Liu, Chunwu and Liang, Xiaojun and Wang, Zhaokui and Zheng, Rongyue and Gao, Wen},
-  journal={arXiv preprint},
-  year={2026}
-}
