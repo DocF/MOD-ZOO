@@ -43,7 +43,7 @@ This repository (**MOD-ZOO**) provides a comprehensive, continuously updated col
 If you find this repository or our survey helpful for your research, please consider citing our paper:
 
 ```bibtex
-@article{fang2024multispectral,
+@article{fang2026multispectral,
   title={Multispectral Object Detection: A Unified Framework and Systematic Survey},
   author={Fang, Qingyun and Gu, Lingyun and Wen, Guangwei and Liu, Chunwu and Liang, Xiaojun and Wang, Zhaokui and Zheng, Rongyue and Gao, Wen},
   journal={arXiv preprint},
