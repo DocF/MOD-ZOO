@@ -51,13 +51,31 @@ An overview of representative MOD datasets spanning ground-based and remote sens
   <p><em>Figure 3. Electromagnetic spectrum mapping and visual comparisons.</em></p>
 </div>
 
-| Dataset | Modality | Platform | Img Pairs | Resolution | Alignment |
-| :--- | :---: | :---: | :---: | :---: | :---: |
-| **KAIST** | RGB-TIR | Driving | 95,328 | 640x480 | ✓ |
-| **FLIR-aligned** | RGB-TIR | Driving | 5,142 | 640x512 | ✓ |
-| **LLVIP** | RGB-TIR | Surveillance | 16,836 | 1080x720 | ✓ |
-| **Drone Vehicle** | RGB-TIR | Drone | 28,439 | 840x712 | ✗ |
-| **OGSOD-2.0** | RGB-SAR | Satellite | 23,462 | 256x256 | ✗ |
+### Ground-based Datasets
+
+| Dataset | Year | Pub. | Modality | Img Pairs | Resolution | Platform | Class | Den. | Align | Occ. | Link |
+| :--- | :---: | :--- | :---: | :---: | :---: | :--- | :---: | :---: | :---: | :---: | :---: |
+| KAIST | 2015 | CVPR | <nobr>RGB-TIR</nobr> | 95,328 | 640 x 480 | Driving | 1 | 0.62 | ✅ | ✅ | [Link](#) |
+| CVC-14 | 2016 | Sensors | <nobr>RGB-TIR</nobr> | 8,518 | 640 x 512 | Driving | 1 | 0.80 | ❌ | ❌ | [Link](#) |
+| FLIR-aligned | 2020 | ICIP | <nobr>RGB-TIR</nobr> | 5,142 | 640 x 512 | Driving | 3 | 7.92 | ✅ | ✅ | [Link](#) |
+| LLVIP | 2021 | ICCV | <nobr>RGB-TIR</nobr> | 16,836 | 1080 x 720 | Surveillance | 1 | 2.51 | ✅ | ❌ | [Link](#) |
+| M³FD | 2022 | CVPR | <nobr>RGB-TIR</nobr> | 4,200 | 1024 x 768 | Multiple | 6 | 8.19 | ✅ | ❌ | [Link](#) |
+| SMOD | 2025 | TMM | <nobr>RGB-TIR</nobr> | 8,676 | 640 x 512 | Driving | 4 | 3.62 | ✅ | ✅ | [Link](#) |
+| MFAD | 2025 | TCSVT | <nobr>RGB-TIR</nobr> | 12,194 | 1280 x 960 | Driving | 6 | 7.13 | ✅ | ❌ | [Link](#) |
+
+### Remote Sensing Datasets
+
+| Dataset | Year | Pub. | Modality | Img Pairs | Resolution | Platform | Class | Den. | Align | Occ. | Link |
+| :--- | :---: | :--- | :---: | :---: | :---: | :--- | :---: | :---: | :---: | :---: | :---: |
+| VEDAI | 2016 | JVCI | <nobr>RGB-NIR</nobr> | 1,264 | 1024x1024 | Drone | 9 | 2.93 | ✅ | ❌ | [Link](#) |
+| DroneVehicle | 2021 | TCSVT | <nobr>RGB-TIR</nobr> | 28,439 | 840 x 712 | Drone | 1 | 16.7 | ❌ | ❌ | [Link](#) |
+| DronePerson | 2023 | ISPRS | <nobr>RGB-TIR</nobr> | 6,125 | 640 x 512 | Drone | 1 | 11.6 | ✅ | ❌ | [Link](#) |
+| DVTOD | 2024 | TIV | <nobr>RGB-TIR</nobr> | 2,179 | 1920x1080 | Drone | 3 | 2.82 | ❌ | ❌ | [Link](#) |
+| OdinMJ | 2024 | GRSM | <nobr>RGB-TIR</nobr> | 23,075 | 640 x 512 | Drone | 1 | 1.98 | ✅ | ✅ | [Link](#) |
+| RGBT-Tiny | 2025 | TPAMI | <nobr>RGB-TIR</nobr> | ~ 47,500 | 640 x 512 | Drone | 7 | 12.9 | ✅ | ❌ | [Link](#) |
+| SpaceNet6-OTD | 2022 | TGRS | <nobr>RGB-SAR</nobr> | 820 | 900 x 900 | Satellite | 1 | 22.0 | ✅ | ❌ | [Link](#) |
+| OGSOD-1.0 | 2023 | TGRS | <nobr>RGB-SAR</nobr> | 14,665 | 256 x 256 | Satellite | 3 | 2.62 | ✅ | ❌ | [Link](#) |
+| OGSOD-2.0 | 2025 | ICGIP | <nobr>RGB-SAR</nobr> | 23,462 | 256 x 256 | Satellite | 4 | 3.24 | ✅ | ❌ | [Link](#) |
 
 ---
 
