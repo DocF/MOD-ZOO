@@ -119,10 +119,16 @@ This section addresses fundamental representation challenges:
 #### Modality Imbalance
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
-| TGRS'25 | BDFusion | Diffusion Mechanism and Knowledge Distillation Object Detection in Multimodal Remote Sensing Imagery | <nobr>RGB-SAR</nobr> | [Paper](#)/[Code](#) |
-| InfFus'25| EMOD | Efficient Multispectral Object Detection with Attentive Feature Aggregation Leveraging Zero-Shot Implicit Illumination Guidance | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TCSVT'25 | MSCoTDet | MSCoTDet: Language-Driven Multi-Modal Fusion for Improved Multi-Spectral Pedestrian Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TGRS'25 | DKDNet | Diffusion Mechanism and Knowledge Distillation Object Detection in Multimodal Remote Sensing Imagery | <nobr>RGB-SAR</nobr> | [Paper](#)/[Code](#) |
+| InfFus'25 | EMOD | Efficient Multispectral Object Detection with Attentive Feature Aggregation Leveraging Zero-Shot Implicit Illumination Guidance | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
 | ICCV'25 | M²D-LIF | Rethinking Multi-Modal Object Detection from the Perspective of Mono-Modality Feature Learning | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TITS'24 | MS-DETR | MS-DETR: Multispectral Pedestrian Detection Transformer with Loosely Coupled Fusion and Modality-Balanced Optimization | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| IROS'24 | DCSANet | DCSANet: Dual Cross-Channel and Spatial Attention Make RGB-T Object Detection Better | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
 | CVPR'24 | CMM | Causal Mode Multiplexer: A Novel Framework for Unbiased Multispectral Pedestrian Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| ECCV'22 | MBNet | Improving Multispectral Pedestrian Detection by Addressing Modality Imbalance Problems | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+
+</small>
 
 #### Modality Redundancy & Asymmetry
 | Venue | Methods | Title | Modality | Source |
