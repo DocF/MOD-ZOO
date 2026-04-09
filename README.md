@@ -157,25 +157,67 @@ This section addresses fundamental representation challenges:
 ### 2. Fusion Scheme
 Categorized by Fusion Stage Design and Fusion Function Construction.
 
-#### Advanced Fusion Functions (Transformer & Mamba)
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
-| InfFus'26| MSFF | Multispectral State-Space Feature Fusion: Bridging Shared and Cross-Parametric Interactions for Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| ICCV'25 | M-SpecGene| Generalized Foundation Model for RGBT Multispectral Vision | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| ICCV'25 | WaveMamba | Wavelet-Driven Mamba Fusion for RGB-Infrared Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TMM'25 | Fusion-Mamba| Fusion-Mamba for Cross-Modality Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| PR'25 | MSTF | Multispectral Transformer Fusion via Exploiting Similarity and Complementarity for Robust Pedestrian Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TIP'26 | <nobr>AFFNet</nobr> | Adaptive Fine-Grained Fusion With Feature Contrastive Loss | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| InfFus'26 | <nobr>MSFF</nobr> | Multispectral State-Space Feature Fusion: Bridging Shared and Cross-Parametric Interactions for Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| InfFus'26 | <nobr>COMO</nobr> | Cross-Mamba Interaction and Offset-Guided Fusion Framework | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TII'25 | <nobr>RetinexDet</nobr> | Retinex State Space Duality and Wavelet-Based Feature Fusion | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TGRS'25 | <nobr>MPFF</nobr> | Progressive Fusion via Global-Local Synergistic Attention | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TGRS'25 | <nobr>DHANet</nobr> | Dual-Stream Hierarchical Interaction via Asymmetric Attention | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TGRS'25 | <nobr>DMM</nobr> | Disparity-Guided Mamba Fusion With Target-Aware Attention | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| PR'25 | <nobr>MSTF</nobr> | Multispectral Transformer Fusion via Exploiting Similarity and Complementarity for Robust Pedestrian Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TMM'25 | <nobr>Fusion-Mamba</nobr> | Fusion-Mamba for Cross-Modality Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| MM'25 | <nobr>CSSFDet</nobr> | Contextually-Guided Mamba Fusion for Misaligned Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| MM'25 | <nobr>SemFusion</nobr> | SAM-Guided Semantic Alignment and Knowledge Injection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| ICCV'25 | <nobr>WaveMamba</nobr> | Wavelet-Driven Mamba Fusion for RGB-Infrared Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| ICCV'25 | <nobr>M-SpecGene</nobr> | Generalized Foundation Model for RGBT Multispectral Vision | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TNNLS'24| <nobr>LRAF-Net</nobr> | Swin Transformer Captures Long-Range Dependencies | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TNNLS'24| <nobr>TFDet</nobr> | Target-Aware Fusion Boosts Contrast to Cut False Positives | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| ECCV'24 | <nobr>MMPedestron</nobr>| Unified Generalist Model With Modality-Aware Token Fusion | <nobr>Multi</nobr> | [Paper](#)/[Code](#) |
+| NIPS'24 | <nobr>E2E-MFD</nobr> | End-to-End Optimization via Gradient Matrix Task-Alignment | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TMM'23 | <nobr>CMPD</nobr> | D-S Theory Guides Reliable Confidence-Aware Fusion Strategy | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TCSVT'22| <nobr>UA-CMDet</nobr> | Uncertainty-Aware Fusion Learning for Cross-Modal Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| InfFus'19 | <nobr>CIAN</nobr> | Interactive Attention Recalibrates Features for Adaptive Fusion | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| PR'19 | <nobr>IAF R-CNN</nobr> | Adaptive Cross-Modal Fusion via Illumination-Aware Weighting | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
 
 ---
 
 ### 3. Detection Solutions (Task-Specific)
+This section categorizes detection solutions based on specific application challenges: small object detection, robust perception under adverse conditions, and adversarial attacks.
+
+#### Small Object Detection
 
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
-| RAL'25 | HA-MLPD | Hybrid Attention for Robust RGB-T Pedestrian Detection in Real-World Conditions | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TCSVT'25 | CFMW | CFMW: Cross-Modality Fusion Mamba for Robust Object Detection Under Adverse Weather | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TIM'25 | AMSDet | Adaptive Modality Selection Drone-Based RGBT Detector for Tiny Targets | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| MM'25 | CDUPatch | Color-Driven Universal Adversarial Patch Attack for Dual-Modal Visible-Infrared Detectors | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TIM'25 | <nobr>AMSDet</nobr> | Adaptive Modality Selection Drone-Based RGBT Detector for Tiny Targets | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TGRS'23 | <nobr>SuperYOLO</nobr> | SuperYOLO: Super Resolution Meets Object Detection in Multispectral Remote Sensing Imagery | <nobr>RGB-NIR</nobr> | [Paper](#)/[Code](#) |
+| ISPRS'23 | <nobr>QFDet</nobr> | Quality-Aware Supervision Optimizes Tiny Object Learning for Multispectral Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| BMVC'20 | <nobr>ASMPD</nobr> | Anchor-Free Small Multispectral Pedestrian Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| ISPRS'19 | <nobr>HMFFN</nobr> | Hierarchical Multi-Modal Feature Fusion Network for Small Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+
+
+#### Robust Object Detection
+
+| Venue | Methods | Title | Modality | Source |
+| :---: | :--- | :--- | :---: | :---: |
+| TCSVT'25 | <nobr>CFMW</nobr> | CFMW: Cross-Modality Fusion Mamba for Robust Object Detection Under Adverse Weather | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| PRL'25 | <nobr>RRD</nobr> | Base-and-Auxiliary Detector Architecture Enhances Robustness for Multispectral Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| RAL'25 | <nobr>HA-MLPD</nobr> | Hybrid Attention for Robust RGB-T Pedestrian Detection in Real-World Conditions | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| MMUL'25 | <nobr>VL-ACFDet</nobr> | Vision-Language-Guided Weather-Adaptive Feature Fusion for Robust Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TGRS'24 | <nobr>LF-MDet</nobr> | Frequency-Domain Gating Optimizes Multimodal Feature Fusion for Robust Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| ECCV'20 | <nobr>ProbEn</nobr> | Probabilistic Ensembles for Multispectral Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+
+
+#### Adversarial Attack & Defense
+
+| Venue | Methods | Title | Modality | Source |
+| :---: | :--- | :--- | :---: | :---: |
+| MM'25 | <nobr>CDUPatch</nobr> | Color-Driven Universal Adversarial Patch Attack for Dual-Modal Visible-Infrared Detectors | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TPAMI'24 | <nobr>UAPatch</nobr> | Shared Shape Optimization for Synchronous Bimodal Evasion in Multispectral Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| AAAI'23 | <nobr>MIC</nobr> | Transparent Low-E Films Realize Multispectral Invisibility | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| ICASSP'23| <nobr>SRG-ASRP</nobr>| Preserving Similarity Relations Mitigates Adversarial Attacks in Multispectral Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+
 
 *(Note: We welcome pull requests to update this list with the latest SOTA papers!)*
 
