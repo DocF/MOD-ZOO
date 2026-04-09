@@ -15,9 +15,39 @@ This repository (**MOD-ZOO**) provides a comprehensive, continuously updated col
 
 ---
 
+## 📑 Table of Contents
+- [📢 News](#-news)
+- [📝 Citation](#-citation)
+- [📖 Abstract](#-abstract)
+- [🖼️ Unified Framework & Taxonomy](#️-unified-framework--taxonomy)
+- [🗂️ Datasets & Benchmarks](#️-datasets--benchmarks)
+  - [Ground-based Datasets](#ground-based-datasets)
+  - [Remote Sensing Datasets](#remote-sensing-datasets)
+- [📚 Paper List (The MOD Zoo)](#-paper-list-the-mod-zoo)
+  - [1. Feature Learning](#1-feature-learning-mitigating-representation-challenges)
+  - [2. Fusion Scheme](#2-fusion-scheme)
+  - [3. Detection Solutions](#3-detection-solutions-task-specific)
+
+---
+
 ## 📢 News
 * **[2026/04]** 🔥🔥The preprint will be available on arXiv soon!
 * **[2026/04]** 🔥🔥Initial release of the **MOD-ZOO** repository, including taxonomy, datasets, and paper lists.
+
+---
+
+## 📝 Citation
+
+If you find this repository or our survey helpful for your research, please consider citing our paper:
+
+```bibtex
+@article{fang2024multispectral,
+  title={Multispectral Object Detection: A Unified Framework and Systematic Survey},
+  author={Fang, Qingyun and Gu, Lingyun and Wen, Guangwei and Liu, Chunwu and Liang, Xiaojun and Wang, Zhaokui and Zheng, Rongyue and Gao, Wen},
+  journal={arXiv preprint},
+  year={2026}
+}
+```
 
 ---
 
@@ -55,7 +85,7 @@ Building upon the concepts introduced above, the following figures visualize the
 
 An overview of representative MOD datasets spanning ground-based and remote sensing scenarios.
 <div align="center">
-  <img src="figures/electromagnetic_spectrum2.png" width="80%" alt="Taxonomy">
+  <img src="figures/electromagnetic_spectrum2.png" width="80%" alt="Spectrum">
   <p><em>Figure 3. Electromagnetic spectrum mapping and visual comparisons.</em></p>
 </div>
 
@@ -163,6 +193,14 @@ This section addresses fundamental representation challenges: 
 
 ### 2. Fusion Scheme
 Categorized by Fusion Stage Design and Fusion Function Construction.
+<div align="center">
+  <img src="figures/fusion-stage.png" width="100%" alt="Stage">
+  <p><em>Figure 4. Fusion Stage Design.</em></p>
+</div>
+<div align="center">
+  <img src="figures/fusion-func.png" width="80%" alt="Function">
+  <p><em>Figure 5. Fusion Function Construction.</em></p>
+</div>
 
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
@@ -229,16 +267,3 @@ This section categorizes detection solutions based on specific application chall
 *(Note: We welcome pull requests to update this list with the latest SOTA papers!)*
 
 
----
-
-## 📝 Citation
-
-If you find this repository or our survey helpful for your research, please consider citing our paper:
-
-```bibtex
-@article{fang2024multispectral,
-  title={Multispectral Object Detection: A Unified Framework and Systematic Survey},
-  author={Fang, Qingyun and Gu, Lingyun and Wen, Guangwei and Liu, Chunwu and Liang, Xiaojun and Wang, Zhaokui and Zheng, Rongyue and Gao, Wen},
-  journal={arXiv preprint},
-  year={2026}
-}
