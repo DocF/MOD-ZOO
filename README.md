@@ -15,9 +15,9 @@ This repository (**MOD-ZOO**) provides a comprehensive, continuously updated col
 
 ---
 
-## 📢 News
-* **[2026/04]** The comprehensive survey paper has been submitted. The preprint will be available on arXiv soon!
-* **[2026/04]** Initial release of the **MOD-ZOO** repository, including taxonomy, datasets, and paper lists.
+## 📢🔥 News
+* **[2026/04]** 🔥🔥The comprehensive survey paper has been submitted. The preprint will be available on arXiv soon!
+* **[2026/04]** 🔥🔥Initial release of the **MOD-ZOO** repository, including taxonomy, datasets, and paper lists.
 
 ---
 
