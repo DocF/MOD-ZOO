@@ -55,13 +55,13 @@ An overview of representative MOD datasets spanning ground-based and remote sens
 
 | Dataset | Venue | Modality | Img Pairs | Resolution | Platform | Class | Den. | Align | Occ. | Link |
 | :--- | :---: | :---: | :---: | :---: | :--- | :---: | :---: | :---: | :---: | :---: |
-| KAIST | CVPR '15 | <nobr>RGB-TIR</nobr> | 95,328 | 640 x 480 | Driving | 1 | 0.62 | ✅ | ✅ | [Link](#) |
-| CVC-14 | Sensors '16 | <nobr>RGB-TIR</nobr> | 8,518 | 640 x 512 | Driving | 1 | 0.80 | ❌ | ❌ | [Link](#) |
-| FLIR-aligned | ICIP '20 | <nobr>RGB-TIR</nobr> | 5,142 | 640 x 512 | Driving | 3 | 7.92 | ✅ | ✅ | [Link](#) |
-| LLVIP | ICCV '21 | <nobr>RGB-TIR</nobr> | 16,836 | 1080 x 720 | Surveillance | 1 | 2.51 | ✅ | ❌ | [Link](#) |
-| M³FD | CVPR '22 | <nobr>RGB-TIR</nobr> | 4,200 | 1024 x 768 | Multiple | 6 | 8.19 | ✅ | ❌ | [Link](#) |
-| SMOD | TMM '25 | <nobr>RGB-TIR</nobr> | 8,676 | 640 x 512 | Driving | 4 | 3.62 | ✅ | ✅ | [Link](#) |
-| MFAD | TCSVT '25 | <nobr>RGB-TIR</nobr> | 12,194 | 1280 x 960 | Driving | 6 | 7.13 | ✅ | ❌ | [Link](#) |
+| KAIST | CVPR'15 | <nobr>RGB-TIR</nobr> | 95,328 | 640x480 | Driving | 1 | 0.62 | ✅ | ✅ | [Link](#) |
+| CVC-14 | Sensors'16 | <nobr>RGB-TIR</nobr> | 8,518 | 640x512 | Driving | 1 | 0.80 | ❌ | ❌ | [Link](#) |
+| FLIR-aligned | ICIP'20 | <nobr>RGB-TIR</nobr> | 5,142 | 640x512 | Driving | 3 | 7.92 | ✅ | ✅ | [Link](#) |
+| LLVIP | ICCV'21 | <nobr>RGB-TIR</nobr> | 16,836 | 1080x720 | Surveillance | 1 | 2.51 | ✅ | ❌ | [Link](#) |
+| M³FD | CVPR'22 | <nobr>RGB-TIR</nobr> | 4,200 | 1024x768 | Multiple | 6 | 8.19 | ✅ | ❌ | [Link](#) |
+| SMOD | TMM'25 | <nobr>RGB-TIR</nobr> | 8,676 | 640x512 | Driving | 4 | 3.62 | ✅ | ✅ | [Link](#) |
+| MFAD | TCSVT'25 | <nobr>RGB-TIR</nobr> | 12,194 | 1280x960 | Driving | 6 | 7.13 | ✅ | ❌ | [Link](#) |
 
 ### Remote Sensing Datasets
 
