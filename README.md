@@ -46,6 +46,10 @@ To provide a systematic survey, a unified four-stage mathematical framework is e
 ## 🗂️ Datasets & Benchmarks
 
 An overview of representative MOD datasets spanning ground-based and remote sensing scenarios.
+<div align="center">
+  <img src="figures/electromagnetic_spectrum2.png" width="80%" alt="Taxonomy">
+  <p><em>Figure 3. Electromagnetic spectrum mapping and visual comparisons.</em></p>
+</div>
 
 | Dataset | Modality | Platform | Img Pairs | Resolution | Alignment |
 | :--- | :---: | :---: | :---: | :---: | :---: |
