@@ -112,17 +112,17 @@ This section addresses fundamental representation challenges:
 #### Modality Imbalance
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
-| TGRS '25 | BDFusion | Diffusion Mechanism and Knowledge Distillation Object Detection in Multimodal Remote Sensing Imagery | <nobr>RGB-SAR</nobr> | [Paper](#)/[Code](#) |
-| InfFus '25| EMOD | Efficient Multispectral Object Detection with Attentive Feature Aggregation Leveraging Zero-Shot Implicit Illumination Guidance | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| ICCV '25 | M²D-LIF | Rethinking Multi-Modal Object Detection from the Perspective of Mono-Modality Feature Learning | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| CVPR '24 | CMM | Causal Mode Multiplexer: A Novel Framework for Unbiased Multispectral Pedestrian Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TGRS'25 | BDFusion | Diffusion Mechanism and Knowledge Distillation Object Detection in Multimodal Remote Sensing Imagery | <nobr>RGB-SAR</nobr> | [Paper](#)/[Code](#) |
+| InfFus'25| EMOD | Efficient Multispectral Object Detection with Attentive Feature Aggregation Leveraging Zero-Shot Implicit Illumination Guidance | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| ICCV'25 | M²D-LIF | Rethinking Multi-Modal Object Detection from the Perspective of Mono-Modality Feature Learning | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| CVPR'24 | CMM | Causal Mode Multiplexer: A Novel Framework for Unbiased Multispectral Pedestrian Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
 
 #### Modality Redundancy & Asymmetry
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
-| MM '25 | UniRGB-IR | A Unified Framework for Visible-Infrared Semantic Tasks via Adapter Tuning | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| ECCV '24 | ModTr | Modality Translation for Object Detection Adaptation Without Forgetting Prior Knowledge | <nobr>TIR</nobr> | [Paper](#)/[Code](#) |
-| NeuCom '24| DHFNet | Decoupled Hierarchical Fusion Network for RGB-T Dense Prediction Tasks | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| MM'25 | UniRGB-IR | A Unified Framework for Visible-Infrared Semantic Tasks via Adapter Tuning | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| ECCV'24 | ModTr | Modality Translation for Object Detection Adaptation Without Forgetting Prior Knowledge | <nobr>TIR</nobr> | [Paper](#)/[Code](#) |
+| NeuCom'24| DHFNet | Decoupled Hierarchical Fusion Network for RGB-T Dense Prediction Tasks | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
 
 ---
 
@@ -132,11 +132,11 @@ Categorized by Fusion Stage Design and Fusion Function Construction.
 #### Advanced Fusion Functions (Transformer & Mamba)
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
-| InfFus '26| MSFF | Multispectral State-Space Feature Fusion: Bridging Shared and Cross-Parametric Interactions for Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| ICCV '25 | M-SpecGene| Generalized Foundation Model for RGBT Multispectral Vision | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| ICCV '25 | WaveMamba | Wavelet-Driven Mamba Fusion for RGB-Infrared Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TMM '25 | Fusion-Mamba| Fusion-Mamba for Cross-Modality Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| PR '25 | MSTF | Multispectral Transformer Fusion via Exploiting Similarity and Complementarity for Robust Pedestrian Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| InfFus'26| MSFF | Multispectral State-Space Feature Fusion: Bridging Shared and Cross-Parametric Interactions for Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| ICCV'25 | M-SpecGene| Generalized Foundation Model for RGBT Multispectral Vision | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| ICCV'25 | WaveMamba | Wavelet-Driven Mamba Fusion for RGB-Infrared Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TMM'25 | Fusion-Mamba| Fusion-Mamba for Cross-Modality Object Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| PR'25 | MSTF | Multispectral Transformer Fusion via Exploiting Similarity and Complementarity for Robust Pedestrian Detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
 
 ---
 
@@ -144,73 +144,13 @@ Categorized by Fusion Stage Design and Fusion Function Construction.
 
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
-| RAL '25 | HA-MLPD | Hybrid Attention for Robust RGB-T Pedestrian Detection in Real-World Conditions | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TCSVT '25 | CFMW | CFMW: Cross-Modality Fusion Mamba for Robust Object Detection Under Adverse Weather | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TIM '25 | AMSDet | Adaptive Modality Selection Drone-Based RGBT Detector for Tiny Targets | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| MM '25 | CDUPatch | Color-Driven Universal Adversarial Patch Attack for Dual-Modal Visible-Infrared Detectors | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| RAL'25 | HA-MLPD | Hybrid Attention for Robust RGB-T Pedestrian Detection in Real-World Conditions | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TCSVT'25 | CFMW | CFMW: Cross-Modality Fusion Mamba for Robust Object Detection Under Adverse Weather | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TIM'25 | AMSDet | Adaptive Modality Selection Drone-Based RGBT Detector for Tiny Targets | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| MM'25 | CDUPatch | Color-Driven Universal Adversarial Patch Attack for Dual-Modal Visible-Infrared Detectors | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
 
 *(Note: We welcome pull requests to update this list with the latest SOTA papers!)*
 
-
-
-## 📚 Paper List (The MOD Zoo)
-
-We categorize representative methods according to our proposed taxonomy.
-
-### 1. Feature Learning (Mitigating Representation Challenges)
-This section addresses fundamental representation challenges: spatial misalignment, modality imbalance, and information redundancy.
-
-#### Modality Misalignment
-| Year | Venue | Method | Title | Modality | Paper | Code |
-| :--- | :---: | :--- | :--- | :---: | :---: | :---: |
-| 2026 | AAAI | IGIANet | Illumination Guided Implicit Alignment Network for Infrared-Visible UAV Detection | RGB-TIR | [Paper](#) | [Code](#) |
-| 2025 | TMM | DeformCAT | Deformable Cross-Attention Transformer for Weakly Aligned RGB-T Pedestrian Detection | RGB-TIR | [Paper](#) | [Code](#) |
-| 2025 | TCSVT | SeaDATE | Remedy Dual-Attention Transformer with Semantic Alignment via Contrast Learning for Multimodal Object Detection | RGB-TIR | [Paper](#) | [Code](#) |
-| 2024 | CVPR | OAFA | Weakly Misalignment-Free Adaptive Feature Alignment for UAVs-based Multimodal Object Detection | RGB-TIR | [Paper](#) | [Code](#) |
-| 2024 | ECCV | DAMSDet | Dynamic Adaptive Multispectral Detection Transformer with Competitive Query Selection and Adaptive Feature Fusion | RGB-TIR | [Paper](#) | [Code](#) |
-| 2023 | MM | AANet | Attentive Alignment Network for Multispectral Pedestrian Detection | RGB-TIR | [Paper](#) | [Code](#) |
-
-#### Modality Imbalance
-| Year | Venue | Method | Title | Modality | Paper | Code |
-| :--- | :---: | :--- | :--- | :---: | :---: | :---: |
-| 2025 | TGRS | BDFusion | Diffusion Mechanism and Knowledge Distillation Object Detection in Multimodal Remote Sensing Imagery | RGB-SAR | [Paper](#) | [Code](#) |
-| 2025 | InfFus| EMOD | Efficient Multispectral Object Detection with Attentive Feature Aggregation Leveraging Zero-Shot Implicit Illumination Guidance | RGB-TIR | [Paper](#) | [Code](#) |
-| 2025 | ICCV | $M^2D-LIF$ | Rethinking Multi-Modal Object Detection from the Perspective of Mono-Modality Feature Learning | RGB-TIR | [Paper](#) | [Code](#) |
-| 2024 | CVPR | CMM | Causal Mode Multiplexer: A Novel Framework for Unbiased Multispectral Pedestrian Detection | RGB-TIR | [Paper](#) | [Code](#) |
-
-#### Modality Redundancy & Asymmetry
-| Year | Venue | Method | Title | Strategy | Paper | Code |
-| :--- | :---: | :--- | :--- | :--- | :---: | :---: |
-| 2025 | MM | UniRGB-IR | A Unified Framework for Visible-Infrared Semantic Tasks via Adapter Tuning | Adapter Tuning | [Paper](#) | [Code](#) |
-| 2024 | ECCV | ModTr | Modality Translation for Object Detection Adaptation Without Forgetting Prior Knowledge | Modality Translation | [Paper](#) | [Code](#) |
-| 2024 | NeuCom| DHFNet | Decoupled Hierarchical Fusion Network for RGB-T Dense Prediction Tasks | Redundancy Suppression | [Paper](#) | [Code](#) |
-
----
-
-### 2. Fusion Scheme
-Categorized by Fusion Stage Design and Fusion Function Construction.
-
-#### Advanced Fusion Functions (Transformer & Mamba)
-| Year | Venue | Method | Title | Backbone | Function | Paper | Code |
-| :--- | :---: | :--- | :--- | :---: | :---: | :---: | :---: |
-| 2026 | InfFus| MSFF | Multispectral State-Space Feature Fusion: Bridging Shared and Cross-Parametric Interactions for Object Detection | FCOS | Mamba | [Paper](#) | [Code](#) |
-| 2025 | ICCV | M-SpecGene| Generalized Foundation Model for RGBT Multispectral Vision | ViTDet | Transformer | [Paper](#) | [Code](#) |
-| 2025 | ICCV | WaveMamba | Wavelet-Driven Mamba Fusion for RGB-Infrared Object Detection | YOLOv8 | Mamba | [Paper](#) | [Code](#) |
-| 2025 | TMM | Fusion-Mamba| Fusion-Mamba for Cross-Modality Object Detection | YOLOv8 | Mamba | [Paper](#) | [Code](#) |
-| 2025 | PR | MSTF | Multispectral Transformer Fusion via Exploiting Similarity and Complementarity for Robust Pedestrian Detection | YOLOv5 | Transformer | [Paper](#) | [Code](#) |
-
----
-
-### 3. Detection Solutions (Task-Specific)
-
-| Category | Year | Venue | Method | Title | Key Idea | Paper | Code |
-| :--- | :---: | :---: | :--- | :--- | :--- | :---: | :---: |
-| **Robust** | 2025 | RAL | HA-MLPD | Hybrid Attention for Robust RGB-T Pedestrian Detection in Real-World Conditions | Hybrid attention prevents degradation under sensor blackouts | [Paper](#) | [Code](#) |
-| **Robust** | 2025 | TCSVT | CFMW | CFMW: Cross-Modality Fusion Mamba for Robust Object Detection Under Adverse Weather | Mamba fusion integrates diffusion-based weather removal | [Paper](#) | [Code](#) |
-| **Small Obj** | 2025 | TIM | AMSDet | Adaptive Modality Selection Drone-Based RGBT Detector for Tiny Targets | Adaptive selection filters redundancy for tiny object detection | [Paper](#) | [Code](#) |
-| **Adversarial** | 2025 | MM | CDUPatch | Color-Driven Universal Adversarial Patch Attack for Dual-Modal Visible-Infrared Detectors | Color-thermal mapping for cross-modal adversarial textures | [Paper](#) | [Code](#) |
-
-*(Note: We welcome pull requests to update this list with the latest SOTA papers!)*
 
 ---
 
