@@ -268,4 +268,7 @@ This section categorizes detection solutions based on specific application chall
 
 *(Note: We welcome pull requests to update this list with the latest SOTA papers!)*
 
+---
 
+## Contact
+Please contact us at ***fqy2017@gmail.com*** for any questions.
