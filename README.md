@@ -136,65 +136,65 @@ An overview of representative MOD datasets spanning ground-based and remote sens
 We categorize representative methods according to our proposed taxonomy.
 
 ### 1. Feature Learning (Mitigating Representation Challenges)
-This section addresses fundamental representation challenges: 
-**Modality Misalignment**, **Modality Imbalance**, **Modality Redundancy**, and **Modality Asymmetry**.
+This section addresses fundamental representation challenges: **Modality Misalignment**, **Modality Imbalance**, **Modality Redundancy**, and **Modality Asymmetry**.
 
 #### Modality Misalignment
 
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
-| AAAI'26 | IGIANet | Igianet: Illumination guided implicit alignment network for infrared-visible uav detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TMM'25 | DeformCAT | Deformle cross-attention transformer for weakly aligned rgb-t pedestrin detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TCSVT'25 | SeaDATE | Seadate: Remedy dual-attention transformer with semantic alignment via contrast learning for multimodal object detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| CVPR'24 | OAFA | Weakly misalignment-free adaptive feature alignment for uavs-based multimodal object detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| ECCV'24 | DAMSDet | Damsdet: Dynamic adaptive multispectral detection transformer with competitive query selection and adaptive feature fusion | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| ICIP'24 | L-CMAF | Revisiting misalignment in multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TIV'24 | YOLO-Adaptor | Yolo-adaptor: A fast adaptive one-stage detector for non-aligned visible-infrared object detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| MM'23 | AANet | Attentive alignment network for multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| MM'23 | CALNet | Multispectral object detection via cross-modal conflict-aware learning | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TITS'23 | MFPT | Multi-modal feature pyramid transformer for rgb-infrared object detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| ECCV'22 | TSFADet | Translation, scale and rotation: cross-modal alignment meets rgb-infrared vehicle detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| ICCV'19 | AR-CNN | Weakly aligned cross-modal learning for multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| AAAI'26 | <nobr>IGIANet</nobr> | Igianet: Illumination guided implicit alignment network for infrared-visible uav detection | <nobr>RGB-TIR</nobr> | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/37298) |
+| TMM'25 | <nobr>DeformCAT</nobr> | Deformable cross-attention transformer for weakly aligned rgb-t pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10891492/)/[Code](#) |
+| TCSVT'25 | <nobr>SeaDATE</nobr> | Seadate: Remedy dual-attention transformer with semantic alignment via contrast learning for multimodal object detection | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10807244/)/[Code](#) |
+| CVPR'24 | <nobr>OAFA</nobr> | Weakly misalignment-free adaptive feature alignment for uavs-based multimodal object detection | <nobr>RGB-TIR</nobr> | [Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_Weakly_Misalignment-free_Adaptive_Feature_Alignment_for_UAVs-based_Multimodal_Object_Detection_CVPR_2024_paper.pdf)/[Code](#) |
+| ECCV'24 | <nobr>DAMSDet</nobr> | Damsdet: Dynamic adaptive multispectral detection transformer with competitive query selection and adaptive feature fusion | <nobr>RGB-TIR</nobr> | [Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03984.pdf)/[Code](#) |
+| ICIP'24 | <nobr>L-CMAF</nobr> | Revisiting misalignment in multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10769164)/[Code](#) |
+| TIV'24 | <nobr>YOLO-Adaptor</nobr> | Yolo-adaptor: A fast adaptive one-stage detector for non-aligned visible-infrared object detection | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10510444)/[Code](#) |
+| MM'23 | <nobr>AANet</nobr> | Attentive alignment network for multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://dl.acm.org/doi/10.1145/3581783.3611804)/[Code](#) |
+| MM'23 | <nobr>CALNet</nobr> | Multispectral object detection via cross-modal conflict-aware learning | <nobr>RGB-TIR</nobr> | [Paper](https://dl.acm.org/doi/10.1145/3581783.3612030)/[Code](#) |
+| TITS'23 | <nobr>MFPT</nobr> | Multi-modal feature pyramid transformer for rgb-infrared object detection | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10007886)/[Code](#) |
+| ECCV'22 | <nobr>TSFADet</nobr> | Translation, scale and rotation: cross-modal alignment meets rgb-infrared vehicle detection | <nobr>RGB-TIR</nobr> | [Paper](https://link.springer.com/chapter/10.1007/978-3-031-19815-1_31)/[Code](#) |
+| ICCV'19 | <nobr>AR-CNN</nobr> | Weakly aligned cross-modal learning for multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_Weakly_Aligned_Cross-Modal_Learning_for_Multispectral_Pedestrian_Detection_ICCV_2019_paper.pdf)/[Code](#) |
 
 #### Modality Imbalance
 
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
-| TCSVT'25 | MSCoTDet | Mscotdet: Language-driven multi-modal fusion for improved multi-spectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TGRS'25 | DKDNet | Diffusion mechanism and knowledge distillation object detection in multimodal remote sensing imagery | <nobr>RGB-SAR</nobr> | [Paper](#)/[Code](#) |
-| InfFus'25 | EMOD | Efficient multispectral object detection with attentive feature aggregation leveraging zero-shot implicit illumination guidance | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| ICCV'25 | M²D-LIF | Rethinking multi-modal object detection from the perspective of mono-modality feature learning | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TITS'24 | MS-DETR | MS-DETR: multispectral pedestrian detection transformer with loosely coupled fusion and modality-balanced optimization | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| IROS'24 | DCSANet | Desanet: Dual cross-channel and spatial attention make RGB-T object detection better | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| CVPR'24 | CMM | Causal mode multiplexer: A novel framework for unbiased multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| ECCV'22 | MBNet | Improving multispectral pedestrian detection by addressing modality imbalance problems | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TCSVT'25 | <nobr>MSCoTDet</nobr> | Mscotdet: Language-driven multi-modal fusion for improved multi-spectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10819422/)/[Code](#) |
+| TGRS'25 | <nobr>DKDNet</nobr> | Diffusion mechanism and knowledge distillation object detection in multimodal remote sensing imagery | <nobr>RGB-SAR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10965806/)/[Code](#) |
+| InfFus'25 | <nobr>EMOD</nobr> | Efficient multispectral object detection with attentive feature aggregation leveraging zero-shot implicit illumination guidance | <nobr>RGB-TIR</nobr> | [Paper](https://doi.org/10.1016/j.inffus.2024.102830)/[Code](#) |
+| ICCV'25 | <nobr>M²D-LIF</nobr> | Rethinking multi-modal object detection from the perspective of mono-modality feature learning | <nobr>RGB-TIR</nobr> | [Paper](https://openaccess.thecvf.com/content/ICCV2025/papers/Zhao_Rethinking_Multi-modal_Object_Detection_from_the_Perspective_of_Mono-Modality_Feature_ICCV_2025_paper.pdf)/[Code](#) |
+| TITS'24 | <nobr>MS-DETR</nobr> | MS-DETR: multispectral pedestrian detection transformer with loosely coupled fusion and modality-balanced optimization | <nobr>RGB-TIR</nobr> | [Paper](http://ieeexplore.ieee.org/document/10669167/)/[Code](#) |
+| IROS'24 | <nobr>DCSANet</nobr> | Desanet: Dual cross-channel and spatial attention make RGB-T object detection better | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10802081)/[Code](#) |
+| CVPR'24 | <nobr>CMM</nobr> | Causal mode multiplexer: A novel framework for unbiased multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Kim_Causal_Mode_Multiplexer_A_Novel_Framework_for_Unbiased_Multispectral_Pedestrian_CVPR_2024_paper.pdf)/[Code](#) |
+| ECCV'22 | <nobr>MBNet</nobr> | Improving multispectral pedestrian detection by addressing modality imbalance problems | <nobr>RGB-TIR</nobr> | [Paper](https://link.springer.com/chapter/10.1007/978-3-031-19815-1_45)/[Code](#) |
 
 #### Modality Redundancy
 
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
-| NeuCom'24 | DHFNet | Dhfnet: Decoupled hierarchical fusion network for RGB-T dense prediction tasks | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| RS'22 | RISNet | Improving rgb-infrared object detection by reducing cross-modality redundancy | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| PR'22 | YOLOFusion | Cross-modality attentive feature fusion for object detection in multispectral remote sensing imagery | <nobr>RGB-NIR</nobr> | [Paper](#)/[Code](#) |
+| NeuCom'24 | <nobr>DHFNet</nobr> | Dhfnet: Decoupled hierarchical fusion network for RGB-T dense prediction tasks | <nobr>RGB-TIR</nobr> | [Paper](https://doi.org/10.1016/j.neucom.2024.128145)/[Code](#) |
+| RS'22 | <nobr>RISNet</nobr> | Improving rgb-infrared object detection by reducing cross-modality redundancy | <nobr>RGB-TIR</nobr> | [Paper](https://www.mdpi.com/2072-4292/14/9/2020)/[Code](#) |
+| PR'22 | <nobr>YOLOFusion</nobr> | Cross-modality attentive feature fusion for object detection in multispectral remote sensing imagery | <nobr>RGB-NIR</nobr> | [Paper](https://doi.org/10.1016/j.patcog.2022.108786)/[Code](https://github.com/DocF/multispectral-object-detection) |
 
 #### Modality Asymmetry
 
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
-| MM'25 | UniRGB-IR | Unirgb-ir: A unified framework for visible-infrared semantic tasks via adapter tuning | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| ECCV'24 | ModTr | Modality translation for object detection adaptation without forgetting prior knowledge | <nobr>TIR</nobr> | [Paper](#)/[Code](#) |
-| CVPR'24 | D3T | D3t: Distinctive dual-domain teacher zigzagging across rgb-thermal gap for domain-adaptive object detection | <nobr>TIR</nobr> | [Paper](#)/[Code](#) |
-| MM'23 | TIRDet | Tirdet: Mono-modality thermal infrared object detection based on prior thermal-to-visible translation | <nobr>TIR</nobr> | [Paper](#)/[Code](#) |
-| TCSVT'22 | DCRL-PDN | Deep cross-modal representation learning and distillation for illumination-invariant pedestrian detection | <nobr>RGB</nobr> | [Paper](#)/[Code](#) |
-| AAAI'22 | VPD | Towards versatile pedestrian detector with multisensory-matching and multispectral recalling memory | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| ECCV'20 | TC-Det | Task-conditioned domain adaptation for pedestrian detection in thermal imagery | <nobr>TIR</nobr> | [Paper](#)/[Code](#) |
-| CVPRW'19 | UMAD | Unsupervised domain adaptation for multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| CVPR'17 | CMT-CNN | Learning cross-modal deep representations for robust pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| MM'25 | <nobr>UniRGB-IR</nobr> | Unirgb-ir: A unified framework for visible-infrared semantic tasks via adapter tuning | <nobr>RGB-TIR</nobr> | [Paper](https://dl.acm.org/doi/10.1145/3746027.3754806)/[Code](#) |
+| ECCV'24 | <nobr>ModTr</nobr> | Modality translation for object detection adaptation without forgetting prior knowledge | <nobr>TIR</nobr> | [Paper](https://link.springer.com/chapter/10.1007/978-3-031-73024-5_4)/[Code](https://github.com/heitorrapela/ModTr) |
+| CVPR'24 | <nobr>D3T</nobr> | D3t: Distinctive dual-domain teacher zigzagging across rgb-thermal gap for domain-adaptive object detection | <nobr>TIR</nobr> | [Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Phat_D3T_Distinctive_Dual-Domain_Teacher_Zigzagging_Across_RGB-Thermal_Gap_for_Domain-Adaptive_CVPR_2024_paper.pdf)/[Code](#) |
+| MM'23 | <nobr>TIRDet</nobr> | Tirdet: Mono-modality thermal infrared object detection based on prior thermal-to-visible translation | <nobr>TIR</nobr> | [Paper](https://dl.acm.org/doi/10.1145/3581783.3611985)/[Code](#) |
+| TCSVT'22 | <nobr>DCRL-PDN</nobr> | Deep cross-modal representation learning and distillation for illumination-invariant pedestrian detection | <nobr>RGB</nobr> | [Paper](https://ieeexplore.ieee.org/document/9696349)/[Code](#) |
+| AAAI'22 | <nobr>VPD</nobr> | Towards versatile pedestrian detector with multisensory-matching and multispectral recalling memory | <nobr>RGB-TIR</nobr> | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/20120)/[Code](#) |
+| ECCV'20 | <nobr>TC-Det</nobr> | Task-conditioned domain adaptation for pedestrian detection in thermal imagery | <nobr>TIR</nobr> | [Paper](https://link.springer.com/chapter/10.1007/978-3-030-58539-6_11)/[Code](#) |
+| CVPRW'19 | <nobr>UMAD</nobr> | Unsupervised domain adaptation for multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://openaccess.thecvf.com/content_CVPRW_2019/papers/Vision_Meets_Cognition/Guan_Unsupervised_Domain_Adaptation_for_Multispectral_Pedestrian_Detection_CVPRW_2019_paper.pdf)/[Code](#) |
+| CVPR'17 | <nobr>CMT-CNN</nobr> | Learning cross-modal deep representations for robust pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Xu_Learning_Cross-Modal_Deep_CVPR_2017_paper.pdf)/[Code](#) |
 
 ---
 
 ### 2. Fusion Scheme
 Categorized by Fusion Stage Design and Fusion Function Construction.
+
 <div align="center">
   <img src="figures/fusion-stage.png" width="100%" alt="Stage">
   <p><em>Figure 4. Fusion Stage Design.</em></p>
@@ -206,27 +206,27 @@ Categorized by Fusion Stage Design and Fusion Function Construction.
 
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
-| TIP'26 | <nobr>AFFNet</nobr> | Adaptive fine-grained fusion network for multimodal UAV object detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| InfFus'26 | <nobr>MSFF</nobr> | Multispectral state-space feature fusion: Bridging shared and cross-parametric interactions for object detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| InfFus'26 | <nobr>COMO</nobr> | COMO: cross-mamba interaction and offset-guided fusion for multimodal object detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TII'25 | <nobr>RetinexDet</nobr> | Retinexdet: Enhancing multispectral object detection via retinex state space duality and wavelet-based frequency adaptive fusion | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TGRS'25 | <nobr>MPFF</nobr> | Aerial image object detection based on rgb-infrared multibranch progressive fusion | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TGRS'25 | <nobr>DHANet</nobr> | Dhanet: Dual-stream hierarchical interaction networks for multimodal drone object detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TGRS'25 | <nobr>DMM</nobr> | DMM: disparity-guided multispectral mamba for oriented object detection in remote sensing | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| PR'25 | <nobr>MSTF</nobr> | Multispectral transformer fusion via exploiting similarity and complementarity for robust pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TMM'25 | <nobr>Fusion-Mamba</nobr> | Fusion-mamba for cross-modality object detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| MM'25 | <nobr>CSSFDet</nobr> | Contextually-guided state space fusion for misaligned multi-spectral object detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| MM'25 | <nobr>SemFusion</nobr> | Sam-guided semantic knowledge fusion for visible-infrared object detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| ICCV'25 | <nobr>WaveMamba</nobr> | Wavemamba: Wavelet-driven mamba fusion for rgb-infrared object detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| ICCV'25 | <nobr>M-SpecGene</nobr> | M-specgene: Generalized foundation model for rgbt multispectral vision | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TNNLS'24| <nobr>LRAF-Net</nobr> | Lraf-net: Long-range attention fusion network for visible-infrared object detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TNNLS'24| <nobr>TFDet</nobr> | Tfdet: Target-aware fusion for RGB-T pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| ECCV'24 | <nobr>MMPedestron</nobr>| When pedestrian detection meets multi-modal learning: Generalist model and benchmark dataset | <nobr>Multi</nobr> | [Paper](#)/[Code](#) |
-| NIPS'24 | <nobr>E2E-MFD</nobr> | E2e-mfd: Towards end-to-end synchronous multimodal fusion detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TMM'23 | <nobr>CMPD</nobr> | Confidence-aware fusion using dempster-shafer theory for multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TCSVT'22| <nobr>UA-CMDet</nobr> | Drone-based rgb-infrared cross-modality vehicle detection via uncertainty-aware learning | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| InfFus'19 | <nobr>CIAN</nobr> | Cross-modality interactive attention network for multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| PR'19 | <nobr>IAF R-CNN</nobr> | Illumination-aware faster r-cnn for robust multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TIP'26 | <nobr>AFFNet</nobr> | Adaptive fine-grained fusion network for multimodal UAV object detection | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/11393654)/[Code](#) |
+| InfFus'26 | <nobr>MSFF</nobr> | Multispectral state-space feature fusion: Bridging shared and cross-parametric interactions for object detection | <nobr>RGB-TIR</nobr> | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S1566253525009571)/[Code](#) |
+| InfFus'26 | <nobr>COMO</nobr> | COMO: cross-mamba interaction and offset-guided fusion for multimodal object detection | <nobr>RGB-TIR</nobr> | [Paper](https://www.sciencedirect.com/science/article/pii/S1566253525004877)/[Code](https://github.com/luluyuu/COMO) |
+| TII'25 | <nobr>RetinexDet</nobr> | Retinexdet: Enhancing multispectral object detection via retinex state space duality and wavelet-based frequency adaptive fusion | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/11149631)/[Code](#) |
+| TGRS'25 | <nobr>MPFF</nobr> | Aerial image object detection based on rgb-infrared multibranch progressive fusion | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10933976/)/[Code](#) |
+| TGRS'25 | <nobr>DHANet</nobr> | Dhanet: Dual-stream hierarchical interaction networks for multimodal drone object detection | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/11030749)/[Code](https://github.com/Victoria-xin1009/-IEEE_TGRS_DHANet) |
+| TGRS'25 | <nobr>DMM</nobr> | DMM: disparity-guided multispectral mamba for oriented object detection in remote sensing | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/11029259)/[Code](https://github.com/Another-0/DMM) |
+| PR'25 | <nobr>MSTF</nobr> | Multispectral transformer fusion via exploiting similarity and complementarity for robust pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://www.researchgate.net/publication/388435957_MultiSpectral_Transformer_Fusion_via_exploiting_similarity_and_complementarity_for_robust_pedestrian_detection)/[Code](#) |
+| TMM'25 | <nobr>Fusion-Mamba</nobr> | Fusion-mamba for cross-modality object detection | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/11124513)/[Code](https://github.com/EhanDong/Fusion-Mamba) |
+| MM'25 | <nobr>CSSFDet</nobr> | Contextually-guided state space fusion for misaligned multi-spectral object detection | <nobr>RGB-TIR</nobr> | [Paper](https://dl.acm.org/doi/10.1145/3746027.3754550)/[Code](#) |
+| MM'25 | <nobr>SemFusion</nobr> | Sam-guided semantic knowledge fusion for visible-infrared object detection | <nobr>RGB-TIR</nobr> | [Paper](https://dl.acm.org/doi/10.1145/3746027.3755718)/[Code](https://github.com/liting1018/SemFusion) |
+| ICCV'25 | <nobr>WaveMamba</nobr> | Wavemamba: Wavelet-driven mamba fusion for rgb-infrared object detection | <nobr>RGB-TIR</nobr> | [Paper](https://openaccess.thecvf.com/content/ICCV2025/papers/Zhu_WaveMamba_Wavelet-Driven_Mamba_Fusion_for_RGB-Infrared_Object_Detection_ICCV_2025_paper.pdf)/[Code](#) |
+| ICCV'25 | <nobr>M-SpecGene</nobr> | M-specgene: Generalized foundation model for rgbt multispectral vision | <nobr>RGB-TIR</nobr> | [Paper](https://openaccess.thecvf.com/content/ICCV2025/papers/Zhou_M-SpecGene_Generalized_Foundation_Model_for_RGBT_Multispectral_Vision_ICCV_2025_paper.pdf)/[Code](#) |
+| TNNLS'24| <nobr>LRAF-Net</nobr> | Lraf-net: Long-range attention fusion network for visible-infrared object detection | <nobr>RGB-TIR</nobr> | [Paper](https://www.semanticscholar.org/paper/LRAF-Net%3A-Long-Range-Attention-Fusion-Network-for-Fu-Wang/7541e2648ce6ec62e3ce815eac38d60cd4f4012a)/[Code](#) |
+| TNNLS'24| <nobr>TFDet</nobr> | Tfdet: Target-aware fusion for RGB-T pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10363242)/[Code](#) |
+| ECCV'24 | <nobr>MMPedestron</nobr>| When pedestrian detection meets multi-modal learning: Generalist model and benchmark dataset | <nobr>Multi</nobr> | [Paper](https://link.springer.com/chapter/10.1007/978-3-031-73195-2_25)/[Code](#) |
+| NIPS'24 | <nobr>E2E-MFD</nobr> | E2e-mfd: Towards end-to-end synchronous multimodal fusion detection | <nobr>RGB-TIR</nobr> | [Paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/5ddfb189c022a317ff1c72e6639079de-Paper-Conference.pdf)/[Code](#) |
+| TMM'23 | <nobr>CMPD</nobr> | Confidence-aware fusion using dempster-shafer theory for multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/9906059)/[Code](#) |
+| TCSVT'22| <nobr>UA-CMDet</nobr> | Drone-based rgb-infrared cross-modality vehicle detection via uncertainty-aware learning | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/9645283)/[Code](#) |
+| InfFus'19 | <nobr>CIAN</nobr> | Cross-modality interactive attention network for multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://doi.org/10.1016/j.inffus.2019.01.002)/[Code](#) |
+| PR'19 | <nobr>IAF R-CNN</nobr> | Illumination-aware faster r-cnn for robust multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://doi.org/10.1016/j.patcog.2018.10.001)/[Code](#) |
 
 ---
 
@@ -237,37 +237,36 @@ This section categorizes detection solutions based on specific application chall
 
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
-| TIM'25 | <nobr>AMSDet</nobr> | Adaptive modality selection drone-based RGBT detector for tiny targets | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TGRS'23 | <nobr>SuperYOLO</nobr> | Superyolo: Super resolution assisted object detection in multimodal remote sensing imagery | <nobr>RGB-NIR</nobr> | [Paper](#)/[Code](#) |
-| ISPRS'23 | <nobr>QFDet</nobr> | Drone-based rgbt tiny person detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| BMVC'20 | <nobr>ASMPD</nobr> | Anchor-free small-scale multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| ISPRS'19 | <nobr>HMFFN</nobr> | Box-level segmentation supervised deep neural networks for accurate and real-time multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TIM'25 | <nobr>AMSDet</nobr> | Adaptive modality selection drone-based RGBT detector for tiny targets | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/11011529/)/[Code](#) |
+| TGRS'23 | <nobr>SuperYOLO</nobr> | Superyolo: Super resolution assisted object detection in multimodal remote sensing imagery | <nobr>RGB-NIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10041982)/[Code](https://github.com/icey-zhang/SuperYOLO) |
+| ISPRS'23 | <nobr>QFDet</nobr> | Drone-based rgbt tiny person detection | <nobr>RGB-TIR</nobr> | [Paper](https://doi.org/10.1016/j.isprsjprs.2023.01.011)/[Code](#) |
+| BMVC'20 | <nobr>ASMPD</nobr> | Anchor-free small-scale multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://www.bmvc2020-conference.com/assets/papers/0698.pdf)/[Code](#) |
+| ISPRS'19 | <nobr>HMFFN</nobr> | Box-level segmentation supervised deep neural networks for accurate and real-time multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://doi.org/10.1016/j.isprsjprs.2019.01.017)/[Code](#) |
 
 
 #### Robust Object Detection
 
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
-| TCSVT'25 | <nobr>CFMW</nobr> | CFMW: cross-modality fusion mamba for robust object detection under adverse weather | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| PRL'25 | <nobr>RRD</nobr> | Learning a robust rgb-thermal detector for extreme modality imbalance | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| RAL'25 | <nobr>HA-MLPD</nobr> | Hybrid attention for robust RGB-T pedestrian detection in real-world conditions | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| MMUL'25 | <nobr>VL-ACFDet</nobr> | Vision-language-guided adaptive cross-modal fusion for multispectral object detection under adverse weather conditions | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TGRS'24 | <nobr>LF-MDet</nobr> | Low-rank multimodal remote sensing object detection with frequency filtering experts | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| ECCV'20 | <nobr>ProbEn</nobr> | Multimodal object detection via probabilistic ensembling | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| TCSVT'25 | <nobr>CFMW</nobr> | CFMW: cross-modality fusion mamba for robust object detection under adverse weather | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/11077409)/[Code](#) |
+| PRL'25 | <nobr>RRD</nobr> | Learning a robust rgb-thermal detector for extreme modality imbalance | <nobr>RGB-TIR</nobr> | [Paper](http://sciencedirect.com/science/article/abs/pii/S0167865525001941)/[Code](#) |
+| RAL'25 | <nobr>HA-MLPD</nobr> | Hybrid attention for robust RGB-T pedestrian detection in real-world conditions | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10759789)/[Code](#) |
+| MMUL'25 | <nobr>VL-ACFDet</nobr> | Vision-language-guided adaptive cross-modal fusion for multispectral object detection under adverse weather conditions | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10829821)/[Code](#) |
+| TGRS'24 | <nobr>LF-MDet</nobr> | Low-rank multimodal remote sensing object detection with frequency filtering experts | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10531086)/[Code](#) |
+| ECCV'22 | <nobr>ProbEn</nobr> | Multimodal object detection via probabilistic ensembling | <nobr>RGB-TIR</nobr> | [Paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136690139.pdf)/[Code](#) |
 
 
 #### Adversarial Attack & Defense
 
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
-| MM'25 | <nobr>CDUPatch</nobr> | Cdupatch: Color-driven universal adversarial patch attack for dual-modal visible-infrared detectors | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| TPAMI'24 | <nobr>UAPatch</nobr> | Unified adversarial patch for visible-infrared cross-modal attacks in the physical world | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| AAAI'23 | <nobr>MIC</nobr> | Multispectral invisible coating: Laminated visible-thermal physical attack against multispectral object detectors using transparent low-e films | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
-| ICASSP'23| <nobr>SRG-ASRP</nobr>| Similarity relation preserving cross-modal learning for multispectral pedestrian detection against adversarial attacks | <nobr>RGB-TIR</nobr> | [Paper](#)/[Code](#) |
+| MM'25 | <nobr>CDUPatch</nobr> | Cdupatch: Color-driven universal adversarial patch attack for dual-modal visible-infrared detectors | <nobr>RGB-TIR</nobr> | [Paper](https://dl.acm.org/doi/10.1145/3746027.3755188)/[Code](#) |
+| TPAMI'24 | <nobr>UAPatch</nobr> | Unified adversarial patch for visible-infrared cross-modal attacks in the physical world | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10380695)/[Code](#) |
+| AAAI'23 | <nobr>MIC</nobr> | Multispectral invisible coating: Laminated visible-thermal physical attack against multispectral object detectors using transparent low-e films | <nobr>RGB-TIR</nobr> | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/26359)/[Code](#) |
+| ICASSP'23| <nobr>SRG-ASRP</nobr>| Similarity relation preserving cross-modal learning for multispectral pedestrian detection against adversarial attacks | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10095813)/[Code](#) |
 
 
 *(Note: We welcome pull requests to update this list with the latest SOTA papers!)*
-
 ---
 
 ## Contact
