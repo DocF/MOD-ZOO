@@ -19,7 +19,6 @@ This repository (**MOD-ZOO**) provides a comprehensive, continuously updated col
 <img align="right" width="45%" src="figures/pub.png" alt="MOD Publications over the past decade">
 
 - [📢 News](#-news)
-- [📝 Citation](#-citation)
 - [📖 Abstract](#-abstract)
 - [🖼️ Unified Framework & Taxonomy](#️-unified-framework--taxonomy)
 - [🗂️ Datasets & Benchmarks](#️-datasets--benchmarks)
@@ -35,21 +34,6 @@ This repository (**MOD-ZOO**) provides a comprehensive, continuously updated col
 ## 📢 News
 * **[2026/04]** 🔥🔥The preprint will be available on arXiv soon!
 * **[2026/04]** 🔥🔥Initial release of the **MOD-ZOO** repository, including taxonomy, datasets, and paper lists.
-
----
-
-## 📝 Citation
-
-If you find this repository or our survey helpful for your research, please consider citing our paper:
-
-```bibtex
-@article{fang2026multispectral,
-  title={Multispectral Object Detection: A Unified Framework and Systematic Survey},
-  author={Fang, Qingyun and Gu, Lingyun and Wen, Guangwei and Liu, Chunwu and Liang, Xiaojun and Wang, Zhaokui and Zheng, Rongyue and Gao, Wen},
-  journal={arXiv preprint},
-  year={2026}
-}
-```
 
 ---
 
