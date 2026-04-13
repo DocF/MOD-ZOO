@@ -85,11 +85,11 @@ An overview of representative MOD datasets spanning ground-based and remote sens
 | :--- | :---: | :---: | :---: | :---: | :--- | :---: | :---: | :---: | :---: |
 | KAIST | CVPR'15 | <nobr>RGB-TIR</nobr> | 95.3K | 640x480 | Driving | 1 | 0.62 | ✅/✅ | [Link](https://soonminhwang.github.io/rgbt-ped-detection/) |
 | CVC-14 | Sensors'16 | <nobr>RGB-TIR</nobr> | 8.5K | 640x512 | Driving | 1 | 0.80 | ❌/❌ | [Link](http://adas.cvc.uab.es/elektra/enigma-portfolio/cvc-14-visible-fir-day-night-pedestrian-sequence-dataset/) |
-| FLIR-aligned | ICIP'20 | <nobr>RGB-TIR</nobr> | 5.1K | 640x512 | Driving | 3 | 7.92 | ✅/✅ | [Link](https://github.com/CalayZhou/Multispectral-Pedestrian-Detection-Resource) |
+| FLIR-aligned | ICIP'20 | <nobr>RGB-TIR</nobr> | 5.1K | 640x512 | Driving | 3 | 7.92 | ✅/✅ | [Link](https://drive.google.com/file/d/1xHDMGl6HJZwtarNWkEV3T4O9X4ZQYz2Y/view) |
 | LLVIP | ICCV'21 | <nobr>RGB-TIR</nobr> | 16.8K | 1080x720 | Surv. | 1 | 2.51 | ✅/❌ | [Link](https://bupt-ai-cz.github.io/LLVIP/) |
 | M³FD | CVPR'22 | <nobr>RGB-TIR</nobr> | 4.2K | 1024x768 | Multi. | 6 | 8.19 | ✅/❌ | [Link](https://github.com/JinyuanLiu-CV/TarDAL) |
-| SMOD | TMM'25 | <nobr>RGB-TIR</nobr> | 8.6K | 640x512 | Driving | 4 | 3.62 | ✅/✅ | [Link](https://arxiv.org/abs/2405.12944) |
-| MFAD | TCSVT'25 | <nobr>RGB-TIR</nobr> | 12.1K | 1280x960 | Driving | 6 | 7.13 | ✅/❌ | [Link](https://github.com/yikangshao/RSC-MD) |
+| SMOD | TMM'25 | <nobr>RGB-TIR</nobr> | 8.6K | 640x512 | Driving | 4 | 3.62 | ✅/✅ | [Link](https://www.kaggle.com/datasets/zizhaochen6/sjtu-multispectral-object-detection-smod-dataset) |
+| MFAD | TCSVT'25 | <nobr>RGB-TIR</nobr> | 12.1K | 1280x960 | Driving | 6 | 7.13 | ✅/❌ | [Link](https://github.com/hukefy/EI2Det) |
 
 </div>
 
@@ -102,14 +102,14 @@ An overview of representative MOD datasets spanning ground-based and remote sens
   
 | Dataset | Venue | Modality | Pairs | Res. | Plat. | Cls | Den. | A/O | Link |
 | :--- | :---: | :---: | :---: | :---: | :--- | :---: | :---: | :---: | :---: |
-| VEDAI | JVCI'16 | <nobr>R-NIR</nobr> | 1.2K | 1024x1024 | UAV | 9 | 2.93 | ✅/❌ | [Link](https://sebastien.razakarivony.free.fr/vedai/) |
+| VEDAI | JVCI'16 | <nobr>R-NIR</nobr> | 1.2K | 1024x1024 | UAV | 9 | 2.93 | ✅/❌ | [Link](https://downloads.greyc.fr/vedai/) |
 | DroneVehicle | TCSVT'21 | <nobr>R-TIR</nobr> | 28.4K | 840x712 | UAV | 1 | 16.7 | ❌/❌ | [Link](https://github.com/VisDrone/DroneVehicle) |
 | DronePerson | ISPRS'23 | <nobr>R-TIR</nobr> | 6.1K | 640x512 | UAV | 1 | 11.6 | ✅/❌ | [Link](https://doi.org/10.1016/j.isprsjprs.2023.01.011) |
 | DVTOD | TIV'24 | <nobr>R-TIR</nobr> | 2.1K | 1920x1080 | UAV | 3 | 2.82 | ❌/❌ | [Link](https://github.com/VDT-2048/DVTOD) |
 | OdinMJ | GRSM'24 | <nobr>R-TIR</nobr> | 23K | 640x512 | UAV | 1 | 1.98 | ✅/✅ | [Link](https://github.com/KustTeamWQW/ODinMJ-RGB-T-Dataset) |
 | RGBT-Tiny | TPAMI'25 | <nobr>R-TIR</nobr> | ~47.5K| 640x512 | UAV | 7 | 12.9 | ✅/❌ | [Link](https://github.com/XinyiYing/RGBT-Tiny) |
 | SpaceNet6-OTD| TGRS'22 | <nobr>R-SAR</nobr> | 820 | 900x900 | Sat. | 1 | 22.0 | ✅/❌ | [Link](https://eis-vipg.github.io/SpaceNet6-OTD/) |
-| OGSOD-1.0 | TGRS'23 | <nobr>R-SAR</nobr> | 14.6K | 256x256 | Sat. | 3 | 2.62 | ✅/❌ | [Link](https://ieeexplore.ieee.org/document/10183827) |
+| OGSOD-1.0 | TGRS'23 | <nobr>R-SAR</nobr> | 14.6K | 256x256 | Sat. | 3 | 2.62 | ✅/❌ | [Link](https://chenglongli.cn/Datasets-and-benchmark-code/) |
 | OGSOD-2.0 | ICGIP'25 | <nobr>R-SAR</nobr> | 23.4K | 256x256 | Sat. | 4 | 3.24 | ✅/❌ | [Link](https://doi.org/10.1117/12.3057720) |
 
 </div>
