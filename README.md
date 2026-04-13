@@ -128,7 +128,7 @@ This section addresses fundamental representation challenges: **Modality Misalig
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
 | AAAI'26 | <nobr>IGIANet</nobr> | Igianet: Illumination guided implicit alignment network for infrared-visible uav detection | <nobr>RGB-TIR</nobr> | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/37298) |
-| TMM'25 | <nobr>DeformCAT</nobr> | Deformable cross-attention transformer for weakly aligned rgb-t pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10891492/)/[Code](#) |
+| TMM'25 | <nobr>DeformCAT</nobr> | Deformable cross-attention transformer for weakly aligned rgb-t pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10891492/)/[Code](https://github.com/jiongger/DeformCAT) |
 | TCSVT'25 | <nobr>SeaDATE</nobr> | Seadate: Remedy dual-attention transformer with semantic alignment via contrast learning for multimodal object detection | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10807244/)/[Code](#) |
 | CVPR'24 | <nobr>OAFA</nobr> | Weakly misalignment-free adaptive feature alignment for uavs-based multimodal object detection | <nobr>RGB-TIR</nobr> | [Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Chen_Weakly_Misalignment-free_Adaptive_Feature_Alignment_for_UAVs-based_Multimodal_Object_Detection_CVPR_2024_paper.pdf)/[Code](#) |
 | ECCV'24 | <nobr>DAMSDet</nobr> | Damsdet: Dynamic adaptive multispectral detection transformer with competitive query selection and adaptive feature fusion | <nobr>RGB-TIR</nobr> | [Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03984.pdf)/[Code](#) |
