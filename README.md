@@ -128,7 +128,7 @@ This challenge manifests in two primary forms: Spatial Misalignment and Semantic
 
 <div align="center">
   <img src="figures/Misalignment.png" width="50%" alt="Function">
-  <p><em>Figure 5. Modality Misalignment</em></p>
+  <p><em>Figure 4. Modality Misalignment</em></p>
 </div>
 
 
@@ -189,11 +189,11 @@ Categorized by Fusion Stage Design and Fusion Function Construction.
 
 <div align="center">
   <img src="figures/fusion-stage.png" width="100%" alt="Stage">
-  <p><em>Figure 4. Fusion Stage Design.</em></p>
+  <p><em>Figure 5. Fusion Stage Design.</em></p>
 </div>
 <div align="center">
   <img src="figures/fusion-func.png" width="80%" alt="Function">
-  <p><em>Figure 5. Fusion Function Construction.</em></p>
+  <p><em>Figure 6. Fusion Function Construction.</em></p>
 </div>
 
 | Venue | Methods | Title | Modality | Source |
