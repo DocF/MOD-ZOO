@@ -124,6 +124,13 @@ We categorize representative methods according to our proposed taxonomy.
 This section addresses fundamental representation challenges: **Modality Misalignment**, **Modality Imbalance**, **Modality Redundancy**, and **Modality Asymmetry**.
 
 #### Modality Misalignment
+This challenge manifests in two primary forms: Spatial Misalignment and Semantic Misalignment.
+
+<div align="center">
+  <img src="figures/Misalignment.png" width="50%" alt="Function">
+  <p><em>Figure 5. Modality Misalignment</em></p>
+</div>
+
 
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
