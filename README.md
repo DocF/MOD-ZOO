@@ -134,11 +134,11 @@ This section addresses fundamental representation challenges: **Modality Misalig
 | ECCV'24 | <nobr>DAMSDet</nobr> | Damsdet: Dynamic adaptive multispectral detection transformer with competitive query selection and adaptive feature fusion | <nobr>RGB-TIR</nobr> | [Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03984.pdf)/[Code](https://github.com/gjj45/DAMSDet) |
 | ICIP'24 | <nobr>L-CMAF</nobr> | Revisiting misalignment in multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10769164) |
 | TIV'24 | <nobr>YOLO-Adaptor</nobr> | Yolo-adaptor: A fast adaptive one-stage detector for non-aligned visible-infrared object detection | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10508329) |
-| MM'23 | <nobr>AANet</nobr> | Attentive alignment network for multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://dl.acm.org/doi/10.1145/3581783.3611804) |
-| MM'23 | <nobr>CALNet</nobr> | Multispectral object detection via cross-modal conflict-aware learning | <nobr>RGB-TIR</nobr> | [Paper](https://dl.acm.org/doi/10.1145/3581783.3612030)/[Code](#) |
-| TITS'23 | <nobr>MFPT</nobr> | Multi-modal feature pyramid transformer for rgb-infrared object detection | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10007886)/[Code](#) |
-| ECCV'22 | <nobr>TSFADet</nobr> | Translation, scale and rotation: cross-modal alignment meets rgb-infrared vehicle detection | <nobr>RGB-TIR</nobr> | [Paper](https://link.springer.com/chapter/10.1007/978-3-031-19815-1_31)/[Code](#) |
-| ICCV'19 | <nobr>AR-CNN</nobr> | Weakly aligned cross-modal learning for multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_Weakly_Aligned_Cross-Modal_Learning_for_Multispectral_Pedestrian_Detection_ICCV_2019_paper.pdf)/[Code](#) |
+| MM'23 | <nobr>AANet</nobr> | Attentive alignment network for multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://dl.acm.org/doi/10.1145/3581783.3613444) |
+| MM'23 | <nobr>CALNet</nobr> | Multispectral object detection via cross-modal conflict-aware learning | <nobr>RGB-TIR</nobr> | [Paper](https://dl.acm.org/doi/10.1145/3581783.3612651)/[Code](https://github.com/hexiao0275/CALNet-Dronevehicle) |
+| TITS'23 | <nobr>MFPT</nobr> | Multi-modal feature pyramid transformer for rgb-infrared object detection | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10105844) |
+| ECCV'22 | <nobr>TSFADet</nobr> | Translation, scale and rotation: cross-modal alignment meets rgb-infrared vehicle detection | <nobr>RGB-TIR</nobr> | [Paper](https://arxiv.org/abs/2209.13801) |
+| ICCV'19 | <nobr>AR-CNN</nobr> | Weakly aligned cross-modal learning for multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_Weakly_Aligned_Cross-Modal_Learning_for_Multispectral_Pedestrian_Detection_ICCV_2019_paper.pdf)/[Code](https://github.com/luzhang16/AR-CNN) |
 
 #### Modality Imbalance
 
