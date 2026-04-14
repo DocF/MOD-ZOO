@@ -240,12 +240,12 @@ This section categorizes detection solutions based on specific application chall
 
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
-| TCSVT'25 | <nobr>CFMW</nobr> | CFMW: cross-modality fusion mamba for robust object detection under adverse weather | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/11077409)/[Code](#) |
-| PRL'25 | <nobr>RRD</nobr> | Learning a robust rgb-thermal detector for extreme modality imbalance | <nobr>RGB-TIR</nobr> | [Paper](http://sciencedirect.com/science/article/abs/pii/S0167865525001941)/[Code](#) |
-| RAL'25 | <nobr>HA-MLPD</nobr> | Hybrid attention for robust RGB-T pedestrian detection in real-world conditions | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10759789)/[Code](#) |
-| MMUL'25 | <nobr>VL-ACFDet</nobr> | Vision-language-guided adaptive cross-modal fusion for multispectral object detection under adverse weather conditions | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10829821)/[Code](#) |
-| TGRS'24 | <nobr>LF-MDet</nobr> | Low-rank multimodal remote sensing object detection with frequency filtering experts | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10531086)/[Code](#) |
-| ECCV'22 | <nobr>ProbEn</nobr> | Multimodal object detection via probabilistic ensembling | <nobr>RGB-TIR</nobr> | [Paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136690139.pdf)/[Code](#) |
+| TCSVT'25 | <nobr>CFMW</nobr> | CFMW: cross-modality fusion mamba for robust object detection under adverse weather | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/11077409)/[Code](https://github.com/lhy-zjut/CFMW) |
+| PRL'25 | <nobr>RRD</nobr> | Learning a robust rgb-thermal detector for extreme modality imbalance | <nobr>RGB-TIR</nobr> | [Paper](http://sciencedirect.com/science/article/abs/pii/S0167865525001941) |
+| RAL'25 | <nobr>HA-MLPD</nobr> | Hybrid attention for robust RGB-T pedestrian detection in real-world conditions | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10759789) |
+| MMUL'25 | <nobr>VL-ACFDet</nobr> | Vision-language-guided adaptive cross-modal fusion for multispectral object detection under adverse weather conditions | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10829821) |
+| TGRS'24 | <nobr>LF-MDet</nobr> | Low-rank multimodal remote sensing object detection with frequency filtering experts | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10643097)/[Code](https://github.com/cq100/LF-MDet) |
+| ECCV'22 | <nobr>ProbEn</nobr> | Multimodal object detection via probabilistic ensembling | <nobr>RGB-TIR</nobr> | [Paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136690139.pdf)/[Code](https://github.com/Jamie725/Multimodal-Object-Detection-via-Probabilistic-Ensembling) |
 
 
 #### Adversarial Attack & Defense
