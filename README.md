@@ -151,14 +151,14 @@ This challenge manifests in two primary forms: Spatial Misalignment and Semantic
 
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
-| TCSVT'25 | <nobr>MSCoTDet</nobr> | Mscotdet: Language-driven multi-modal fusion for improved multi-spectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10819422/)/[Code](#) |
-| TGRS'25 | <nobr>DKDNet</nobr> | Diffusion mechanism and knowledge distillation object detection in multimodal remote sensing imagery | <nobr>RGB-SAR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10965806/)/[Code](#) |
-| InfFus'25 | <nobr>EMOD</nobr> | Efficient multispectral object detection with attentive feature aggregation leveraging zero-shot implicit illumination guidance | <nobr>RGB-TIR</nobr> | [Paper](https://doi.org/10.1016/j.inffus.2024.102830)/[Code](#) |
-| ICCV'25 | <nobr>M²D-LIF</nobr> | Rethinking multi-modal object detection from the perspective of mono-modality feature learning | <nobr>RGB-TIR</nobr> | [Paper](https://openaccess.thecvf.com/content/ICCV2025/papers/Zhao_Rethinking_Multi-modal_Object_Detection_from_the_Perspective_of_Mono-Modality_Feature_ICCV_2025_paper.pdf)/[Code](#) |
-| TITS'24 | <nobr>MS-DETR</nobr> | MS-DETR: multispectral pedestrian detection transformer with loosely coupled fusion and modality-balanced optimization | <nobr>RGB-TIR</nobr> | [Paper](http://ieeexplore.ieee.org/document/10669167/)/[Code](#) |
-| IROS'24 | <nobr>DCSANet</nobr> | Desanet: Dual cross-channel and spatial attention make RGB-T object detection better | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10802081)/[Code](#) |
-| CVPR'24 | <nobr>CMM</nobr> | Causal mode multiplexer: A novel framework for unbiased multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Kim_Causal_Mode_Multiplexer_A_Novel_Framework_for_Unbiased_Multispectral_Pedestrian_CVPR_2024_paper.pdf)/[Code](#) |
-| ECCV'22 | <nobr>MBNet</nobr> | Improving multispectral pedestrian detection by addressing modality imbalance problems | <nobr>RGB-TIR</nobr> | [Paper](https://link.springer.com/chapter/10.1007/978-3-031-19815-1_45)/[Code](#) |
+| TCSVT'25 | <nobr>MSCoTDet</nobr> | Mscotdet: Language-driven multi-modal fusion for improved multi-spectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10819422/) |
+| TGRS'25 | <nobr>DKDNet</nobr> | Diffusion mechanism and knowledge distillation object detection in multimodal remote sensing imagery | <nobr>RGB-SAR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10965806/) |
+| InfFus'25 | <nobr>EMOD</nobr> | Efficient multispectral object detection with attentive feature aggregation leveraging zero-shot implicit illumination guidance | <nobr>RGB-TIR</nobr> | [Paper](https://www.sciencedirect.com/science/article/pii/S1566253525000120)/[Code](https://github.com/XiongZhongxia/EMOD) |
+| ICCV'25 | <nobr>M²D-LIF</nobr> | Rethinking multi-modal object detection from the perspective of mono-modality feature learning | <nobr>RGB-TIR</nobr> | [Paper](https://openaccess.thecvf.com/content/ICCV2025/papers/Zhao_Rethinking_Multi-modal_Object_Detection_from_the_Perspective_of_Mono-Modality_Feature_ICCV_2025_paper.pdf)/[Code](https://github.com/Zhao-Tian-yi/M2D-LIF) |
+| TITS'24 | <nobr>MS-DETR</nobr> | MS-DETR: multispectral pedestrian detection transformer with loosely coupled fusion and modality-balanced optimization | <nobr>RGB-TIR</nobr> | [Paper](http://ieeexplore.ieee.org/document/10669167/)/[Code](https://github.com/YinghuiXing/MS-DETR) |
+| IROS'24 | <nobr>DCSANet</nobr> | Desanet: Dual cross-channel and spatial attention make RGB-T object detection better | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10802230) |
+| CVPR'24 | <nobr>CMM</nobr> | Causal mode multiplexer: A novel framework for unbiased multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Kim_Causal_Mode_Multiplexer_A_Novel_Framework_for_Unbiased_Multispectral_Pedestrian_CVPR_2024_paper.pdf)/[Code](https://github.com/ssbin0914/Causal-Mode-Multiplexer) |
+| ECCV'22 | <nobr>MBNet</nobr> | Improving multispectral pedestrian detection by addressing modality imbalance problems | <nobr>RGB-TIR</nobr> | [Paper](https://arxiv.org/abs/2008.03043)/[Code](https://github.com/CalayZhou/MBNet) |
 
 #### Modality Redundancy
 
