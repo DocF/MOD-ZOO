@@ -172,15 +172,15 @@ This challenge manifests in two primary forms: Spatial Misalignment and Semantic
 
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
-| MM'25 | <nobr>UniRGB-IR</nobr> | Unirgb-ir: A unified framework for visible-infrared semantic tasks via adapter tuning | <nobr>RGB-TIR</nobr> | [Paper](https://dl.acm.org/doi/10.1145/3746027.3754806)/[Code](#) |
+| MM'25 | <nobr>UniRGB-IR</nobr> | Unirgb-ir: A unified framework for visible-infrared semantic tasks via adapter tuning | <nobr>RGB-TIR</nobr> | [Paper](https://dl.acm.org/doi/10.1145/3746027.3754806)/[Code](https://github.com/PoTsui99/UniRGB-IR) |
 | ECCV'24 | <nobr>ModTr</nobr> | Modality translation for object detection adaptation without forgetting prior knowledge | <nobr>TIR</nobr> | [Paper](https://link.springer.com/chapter/10.1007/978-3-031-73024-5_4)/[Code](https://github.com/heitorrapela/ModTr) |
-| CVPR'24 | <nobr>D3T</nobr> | D3t: Distinctive dual-domain teacher zigzagging across rgb-thermal gap for domain-adaptive object detection | <nobr>TIR</nobr> | [Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Phat_D3T_Distinctive_Dual-Domain_Teacher_Zigzagging_Across_RGB-Thermal_Gap_for_Domain-Adaptive_CVPR_2024_paper.pdf)/[Code](#) |
-| MM'23 | <nobr>TIRDet</nobr> | Tirdet: Mono-modality thermal infrared object detection based on prior thermal-to-visible translation | <nobr>TIR</nobr> | [Paper](https://dl.acm.org/doi/10.1145/3581783.3611985)/[Code](#) |
-| TCSVT'22 | <nobr>DCRL-PDN</nobr> | Deep cross-modal representation learning and distillation for illumination-invariant pedestrian detection | <nobr>RGB</nobr> | [Paper](https://ieeexplore.ieee.org/document/9696349)/[Code](#) |
-| AAAI'22 | <nobr>VPD</nobr> | Towards versatile pedestrian detector with multisensory-matching and multispectral recalling memory | <nobr>RGB-TIR</nobr> | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/20120)/[Code](#) |
-| ECCV'20 | <nobr>TC-Det</nobr> | Task-conditioned domain adaptation for pedestrian detection in thermal imagery | <nobr>TIR</nobr> | [Paper](https://link.springer.com/chapter/10.1007/978-3-030-58539-6_11)/[Code](#) |
-| CVPRW'19 | <nobr>UMAD</nobr> | Unsupervised domain adaptation for multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://openaccess.thecvf.com/content_CVPRW_2019/papers/Vision_Meets_Cognition/Guan_Unsupervised_Domain_Adaptation_for_Multispectral_Pedestrian_Detection_CVPRW_2019_paper.pdf)/[Code](#) |
-| CVPR'17 | <nobr>CMT-CNN</nobr> | Learning cross-modal deep representations for robust pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Xu_Learning_Cross-Modal_Deep_CVPR_2017_paper.pdf)/[Code](#) |
+| CVPR'24 | <nobr>D3T</nobr> | D3t: Distinctive dual-domain teacher zigzagging across rgb-thermal gap for domain-adaptive object detection | <nobr>TIR</nobr> | [Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Phat_D3T_Distinctive_Dual-Domain_Teacher_Zigzagging_Across_RGB-Thermal_Gap_for_Domain-Adaptive_CVPR_2024_paper.pdf)/[Code](https://github.com/EdwardDo69/D3T) |
+| MM'23 | <nobr>TIRDet</nobr> | Tirdet: Mono-modality thermal infrared object detection based on prior thermal-to-visible translation | <nobr>TIR</nobr> | [Paper](https://dl.acm.org/doi/10.1145/3581783.3613849)/[Code](https://github.com/zeyuwang-zju/TIRDet) |
+| TCSVT'22 | <nobr>DCRL-PDN</nobr> | Deep cross-modal representation learning and distillation for illumination-invariant pedestrian detection | <nobr>RGB</nobr> | [Paper](https://ieeexplore.ieee.org/document/9357413) |
+| AAAI'22 | <nobr>VPD</nobr> | Towards versatile pedestrian detector with multisensory-matching and multispectral recalling memory | <nobr>RGB-TIR</nobr> | [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/20001) |
+| ECCV'20 | <nobr>TC-Det</nobr> | Task-conditioned domain adaptation for pedestrian detection in thermal imagery | <nobr>TIR</nobr> | [Paper](https://link.springer.com/chapter/10.1007/978-3-030-58542-6_33)/[Code](https://github.com/mrkieumy/task-conditioned) |
+| CVPRW'19 | <nobr>UMAD</nobr> | Unsupervised domain adaptation for multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://arxiv.org/pdf/1904.03692)/[Code](https://github.com/ErikBrorsson/MVUDA) |
+| CVPR'17 | <nobr>CMT-CNN</nobr> | Learning cross-modal deep representations for robust pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Xu_Learning_Cross-Modal_Deep_CVPR_2017_paper.pdf)/[Code](https://github.com/danxuhk/CMT-CNN) |
 
 ---
 
