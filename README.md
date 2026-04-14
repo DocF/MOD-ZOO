@@ -164,8 +164,8 @@ This challenge manifests in two primary forms: Spatial Misalignment and Semantic
 
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
-| NeuCom'24 | <nobr>DHFNet</nobr> | Dhfnet: Decoupled hierarchical fusion network for RGB-T dense prediction tasks | <nobr>RGB-TIR</nobr> | [Paper](https://doi.org/10.1016/j.neucom.2024.128145)/[Code](#) |
-| RS'22 | <nobr>RISNet</nobr> | Improving rgb-infrared object detection by reducing cross-modality redundancy | <nobr>RGB-TIR</nobr> | [Paper](https://www.mdpi.com/2072-4292/14/9/2020)/[Code](#) |
+| NeuCom'24 | <nobr>DHFNet</nobr> | Dhfnet: Decoupled hierarchical fusion network for RGB-T dense prediction tasks | <nobr>RGB-TIR</nobr> | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231224003655) |
+| RS'22 | <nobr>RISNet</nobr> | Improving rgb-infrared object detection by reducing cross-modality redundancy | <nobr>RGB-TIR</nobr> | [Paper](https://www.mdpi.com/2072-4292/14/9/2020)|
 | PR'22 | <nobr>YOLOFusion</nobr> | Cross-modality attentive feature fusion for object detection in multispectral remote sensing imagery | <nobr>RGB-NIR</nobr> | [Paper](https://doi.org/10.1016/j.patcog.2022.108786)/[Code](https://github.com/DocF/multispectral-object-detection) |
 
 #### Modality Asymmetry
