@@ -229,11 +229,11 @@ This section categorizes detection solutions based on specific application chall
 
 | Venue | Methods | Title | Modality | Source |
 | :---: | :--- | :--- | :---: | :---: |
-| TIM'25 | <nobr>AMSDet</nobr> | Adaptive modality selection drone-based RGBT detector for tiny targets | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/11011529/)/[Code](#) |
-| TGRS'23 | <nobr>SuperYOLO</nobr> | Superyolo: Super resolution assisted object detection in multimodal remote sensing imagery | <nobr>RGB-NIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/10041982)/[Code](https://github.com/icey-zhang/SuperYOLO) |
-| ISPRS'23 | <nobr>QFDet</nobr> | Drone-based rgbt tiny person detection | <nobr>RGB-TIR</nobr> | [Paper](https://doi.org/10.1016/j.isprsjprs.2023.01.011)/[Code](#) |
-| BMVC'20 | <nobr>ASMPD</nobr> | Anchor-free small-scale multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://www.bmvc2020-conference.com/assets/papers/0698.pdf)/[Code](#) |
-| ISPRS'19 | <nobr>HMFFN</nobr> | Box-level segmentation supervised deep neural networks for accurate and real-time multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://doi.org/10.1016/j.isprsjprs.2019.01.017)/[Code](#) |
+| TIM'25 | <nobr>AMSDet</nobr> | Adaptive modality selection drone-based RGBT detector for tiny targets | <nobr>RGB-TIR</nobr> | [Paper](https://ieeexplore.ieee.org/document/11011529/) |
+| TGRS'23 | <nobr>SuperYOLO</nobr> | Superyolo: Super resolution assisted object detection in multimodal remote sensing imagery | <nobr>RGB-NIR</nobr> | [Paper](https://ieeexplore.ieee.org/abstract/document/10075555)/[Code](https://github.com/icey-zhang/SuperYOLO) |
+| ISPRS'23 | <nobr>QFDet</nobr> | Drone-based rgbt tiny person detection | <nobr>RGB-TIR</nobr> | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S0924271623002319)/[Code](https://github.com/NNNNerd/mmdet-rgbtdroneperson) |
+| BMVC'20 | <nobr>ASMPD</nobr> | Anchor-free small-scale multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://arxiv.org/abs/2008.08418)/[Code](https://github.com/HensoldtOptronicsCV/MultispectralPedestrianDetection) |
+| ISPRS'19 | <nobr>HMFFN</nobr> | Box-level segmentation supervised deep neural networks for accurate and real-time multispectral pedestrian detection | <nobr>RGB-TIR</nobr> | [Paper](https://arxiv.org/abs/1902.05291) |
 
 
 #### Robust Object Detection
